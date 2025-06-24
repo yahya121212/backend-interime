@@ -1,0 +1,3070 @@
+[
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Coffreur boiseur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Ferrailleur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Ouvrier de l'extraction solide (minerai, minéraux)"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Ouvrier de l'extraction liquide et gazeuse (Pétrole, eau)"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Ouvrier de la maçonnerie"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Ouvrier du bâtiment, gros œuvre"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Monteur en structures métalliques"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Monteur en structures bois"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Soudeur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment, des travaux publics et de l'extraction",
+    "job": "Mineur puisatier"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Ouvrier des travaux publics et du béton"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Chefs d'équipe du gros oeuvre et des travaux publics"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Ouvrier du béton"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Macon VRD"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Mineurs puisatiers"
+  },
+  {
+    "subActivite": "Travaux publics, du béton et de l'extraction",
+    "job": "Ouvrier de l'extraction"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Maçon"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Coffreur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Boiseur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Ferrailleur"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Tailleur de pierre"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Poseur de revêtements rigides"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Charpentiers (métal)"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Monteur en structures métalliques"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Charpentiers (bois)"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Monteur en structures bois"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Chef d'équipe du gros œuvre"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Chef de chantiers gros œuvre"
+  },
+  {
+    "subActivite": "Gros œuvre du bâtiment",
+    "job": "Conducteur travaux"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Agent de maintenance industrielle"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Frigoriste"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Technicien maintenance Clim (dépannage)"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Monteur climatisation"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Electromécanicien"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Chargé d'affaire CVC"
+  },
+  {
+    "subActivite": "Froid et climatisation",
+    "job": "Dessinateur DAO"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Artisans couvreurs"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Couvreur ardoisier"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Couvreur zingeur"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Artisan plombier, chauffagiste"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Plombier et chauffagiste"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Plombier sanitaire"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Chauffagiste"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Gaineur"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Menuisier"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Macon finitions intérieurs"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Carreleur"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Poseur de revêtements souples"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Monteur plaquiste en agencements"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Menuisiers du bâtiment"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Artisan électriciens du bâtiment"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Électricien du bâtiment"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Etancheur"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Ouvrier de la peinture et de la finition du bâtiment"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Peintre en bâtiment"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Menuisier Alluminiun"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Ouvrier de l'étanchéité et de l'isolation"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Serrurier ville"
+  },
+  {
+    "subActivite": "Ouvrier du bâtiment, second œuvre",
+    "job": "Bardeur"
+  },
+  {
+    "subActivite": "Conducteurs d'engins du bâtiment et des travaux publics",
+    "job": "Conducteur d'engin de chantier du BTP, du génie civil et de l'exploitation des carrières"
+  },
+  {
+    "subActivite": "Conducteurs d'engins du bâtiment et des travaux publics",
+    "job": "Conducteur d'engins de levage"
+  },
+  {
+    "subActivite": "Conducteurs d'engins du bâtiment et des travaux publics",
+    "job": "Grutier"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Géomètre"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Topographe"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Technicien et chargés d'études du bâtiment et des travaux publics"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Métreur et Technicien divers du bâtiment et des travaux publics"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Conducteur de travaux (non Cadre)"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Dessinateur-projeteur et d'études en bâtiment et en travaux publics"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise du bâtiment et des travaux publics",
+    "job": "Chef de chantier, conducteurs de travaux (non Cadre)"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Architecte du BTP"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Architectes libéraux"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Ingénieurs du bâtiment et des travaux publics, Chef de chantier et conducteurs de travaux (Cadre)"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Chef de chantier du BTP"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Conducteur de travaux du BTP"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Cadre technique d'exploitation des gisements"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Chargé d'études techniques du BTP"
+  },
+  {
+    "subActivite": "Cadre du bâtiment et des travaux publics",
+    "job": "Chargé d'études techniques du sous-sol"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Opérateur sur machines automatiques en production électrique et électronique"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Interconnecteur en électronique"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Câbleurs"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Bobiniers"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Opérateur"
+  },
+  {
+    "subActivite": "Ouvrier de l'électricité et de l'électronique",
+    "job": "Contrôleurs en électricité et en électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Technicien d'études-recherche-développement en électricité et électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Technicien de contrôle-essai-qualité en électricité et électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Dessinateur-projeteur en électricité et en électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Dessinateurs en électricité et en électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Dessinateurs en électricité, électromécanique et électronique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Agent d'encadrement de fabrication en matériel électrique"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Rédacteur de notices techniques"
+  },
+  {
+    "subActivite": "Technicien et Agent de maîtrise de l'électricité et de l'électronique",
+    "job": "Agent d'encadrement de production électrique et électronique"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par enlèvement de métal",
+    "job": "Régleur"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par enlèvement de métal",
+    "job": "Agent d'usinage des métaux"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par enlèvement de métal",
+    "job": "Ouvrier travaillant par enlèvement de métal"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par enlèvement de métal",
+    "job": "Opérateur-régleur sur machine-outil"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par enlèvement de métal",
+    "job": "Stratificateur-mouliste"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Chaudronnier"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Métallier"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Serrurier"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Tuyauteur industriel ISO"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Chaudronnier-traceur"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Tolier"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Agent de montage, assemblage de construction mécanique"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Soudeur sur métaux tig toutes positions"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Soudeur aeronautique licence"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Soudeur sur métaux a plat (arc)"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Soudeur semi automatique mig"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Soudeur semi automatique mag"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Agent de traitement de surface OS"
+  },
+  {
+    "subActivite": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype",
+    "job": "Agent de découpage des métaux (plasma)"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Mécanicien d'engins de chantier, de levage et manutention et de machines agricoles"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Mécanicien de véhicules particulier"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Réparateur en carrosserie"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Electricien automobile"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Preparateur VO"
+  },
+  {
+    "subActivite": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles",
+    "job": "Mécanicien en motocycles, matériels d'entretien et de loisirs"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Monteur, ajusteur, mécanicien"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Agent de montage, assemblage de la construction mécanique"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Touneur"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Fraiseur"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Ajusteur mécanicien"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Agent de traitement de surface"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Agent de traitement thermique"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Contrôleurs de fabrication mécanique"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Régleur"
+  },
+  {
+    "subActivite": "Ouvrier de la mécanique industrielle",
+    "job": "Modeleur-mouliste"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Technicien de fabrication de la construction mécanique"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Technicien qualité de la construction mécanique"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Dessinateur-projeteur de la construction mécanique"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Agent de maîtrise en construction mécanique, travail des métaux"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Chef d'atelier ou production"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Superviseur"
+  },
+  {
+    "subActivite": "Technicien, Agent de maîtrise des industries mécaniques",
+    "job": "Chargé d'affaires construction mécanique"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Agent de développement des énergies renouvelables"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Animateur en énergie"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Chargé d'affaires en génie thermique et climatique"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Ingénieur Combustion et Bruleurs"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Ingénieur d'études Energie"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Ingénieur énergies renouvelables (ENR)"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Ingénieur thermicien"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Installateurs thermique et climatique"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technicien des réseaux des fluides"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technicien d'exploitation Energie"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technicien en énergies renouvelables appliquées au batiment"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technicien Supérieur de maintenance et d'exploitation en climatique"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technicien thermicien"
+  },
+  {
+    "subActivite": "Technicien, cadres, énergie renouvelable",
+    "job": "Technico Commercial Thermicien économie d'énergie"
+  },
+  {
+    "subActivite": "Industries chimiques et plastiques",
+    "job": "Opérateur sur appareils de transformation physique ou chimique"
+  },
+  {
+    "subActivite": "Industries chimiques et plastiques",
+    "job": "Opérateur sur machines de formage des matières plastiques et du caoutchouc"
+  },
+  {
+    "subActivite": "Industries chimiques et plastiques",
+    "job": "Pilote d'installation lourde"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Ouvrier de production de la transformation des viandes"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Opérateur sur machines et appareils de fabrication des industries agro-alimentaires"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Opérateur de transformation des viandes"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Opérateur de fermentation artisanale"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Assistant de fabrication de l'alimentation"
+  },
+  {
+    "subActivite": "Industries agro-alimentaires",
+    "job": "Pilote d'installation lourde"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Opérateur de production des métaux"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Opérateur sur machines de première transformation des métaux"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Opérateur de formage du verre"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Opérateur de production de céramique et de matériaux de construction"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Modeleur (sauf métal), mouleur-noyauteur, ouvrier du travail du verre ou de la céramique à la main"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Pilote d'installation lourde"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Verrier à la main"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Céramiste à la main"
+  },
+  {
+    "subActivite": "Métallurgie, verre et céramique",
+    "job": "Ouvrier du travail manuel du verre et de la céramique"
+  },
+  {
+    "subActivite": "Industrie du papier, du carton et du bois",
+    "job": "Opérateur de production de panneaux à base de bois"
+  },
+  {
+    "subActivite": "Industrie du papier, du carton et du bois",
+    "job": "Opérateur de production des pâtes à papier et à carton"
+  },
+  {
+    "subActivite": "Industrie du papier, du carton et du bois",
+    "job": "Opérateur de production de papier-carton"
+  },
+  {
+    "subActivite": "Industrie du papier, du carton et du bois",
+    "job": "Ouvrier des industries lourdes du bois et de la fabrication de papier-carton"
+  },
+  {
+    "subActivite": "Industrie du papier, du carton et du bois",
+    "job": "Opérateur des industries lourdes du bois et de la fabrication du papier-carton"
+  },
+  {
+    "subActivite": "Autres types industriels",
+    "job": "Opérateur sur machine de finition, contrôle et conditionnement"
+  },
+  {
+    "subActivite": "Autres types industriels",
+    "job": "Ouvrier qualifié des autres industries (eau, gaz, énergie, chauffage)"
+  },
+  {
+    "subActivite": "Laboratoires",
+    "job": "Technicien des laboratoires de recherche publique ou de l'enseignement"
+  },
+  {
+    "subActivite": "Laboratoires",
+    "job": "Ouvrier et Agent de laboratoire : agroalimentaire, chimie, biologie, pharmacie"
+  },
+  {
+    "subActivite": "Laboratoires",
+    "job": "Agent de laboratoire (sauf chimie, santé)"
+  },
+  {
+    "subActivite": "Laboratoires",
+    "job": "Laboratoire de recherche"
+  },
+  {
+    "subActivite": "Laboratoires",
+    "job": "Laboratoire de contrôle de fabrication"
+  },
+  {
+    "subActivite": "Industrie de process",
+    "job": "Recherche-Développement et Méthodes de production"
+  },
+  {
+    "subActivite": "Industrie de process",
+    "job": "Technicien de production"
+  },
+  {
+    "subActivite": "Industrie de process",
+    "job": "Technicien en environnement"
+  },
+  {
+    "subActivite": "Industrie de process",
+    "job": "Technicien des analyses industrielles"
+  },
+  {
+    "subActivite": "Industrie de process",
+    "job": "Agent d'encadrement des industries de process"
+  },
+  {
+    "subActivite": "Industrie de transformation",
+    "job": "Contrôle-Qualité"
+  },
+  {
+    "subActivite": "Industrie de transformation",
+    "job": "Agent de maîtrise et Technicien en production et distribution d'énergie, eau, chauffage"
+  },
+  {
+    "subActivite": "Industrie de transformation",
+    "job": "Technicien en application industrielle"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Trieur-classeur des industries de matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Préparateur de produits des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur d'atelier de coupe des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Conducteur de machines de filature textile"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Conducteur de machines de fabrication de produits textiles"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur de tannerie-mégisserie"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur d'assemblage-montage des industries du cuirs, des peaux et matériaux associés"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur d'assemblage-montage des industries de l'habillement et autres fabrications à base d'étoffes"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Conducteur de machines d'ennoblissement textile"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur de finition des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Visiteur-contrôleur des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Opérateur d'entretien des articles textiles"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Réparateur-retoucheur en habillement"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Fabricant de vêtements sur mesure ou en petite série"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Fabricant d'articles de chapellerie"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Fabricant d'articles en cuir et autres matériaux souples (hors vêtement)"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Réparateur d'articles en cuir et autres matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Façonnier d'ouvrages d'art en fils"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Teinturier-coloriste des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Apprêteur des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Industrie du textile et du cuir",
+    "job": "Patronnier-gradeur des industries des matériaux souples"
+  },
+  {
+    "subActivite": "Artisanat du textile et du cuir",
+    "job": "Artisans de l'habillement, du textile et du cuir"
+  },
+  {
+    "subActivite": "Artisanat du textile et du cuir",
+    "job": "Tailleurs et couturières, Ouvrier du travail des étoffes (sauf fabrication de vêtements), Ouvrier de type artisanal du travail du cuir"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Opérateur de sciage-débit"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Conducteur de machine de fabrication des industries de l'ameublement et du bois (et matériaux associés)"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Façonneur bois et matériaux associés (production de série)"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Monteur d'ouvrages en bois et matériaux associés (production de série)"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Tapissier décorateur en ameublement"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Réalisateur d'ouvrages en bois et matériaux associés"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Façonnier d'ouvrages décoratifs en bois et matériaux associés"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Finisseur sur bois"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Ouvrier de scierie, de la menuiserie industrielle et de l'ameublement"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Technicien des industries de l'ameublement et du bois"
+  },
+  {
+    "subActivite": "Industrie du travail du bois et de l'ameublement",
+    "job": "Agent d'encadrement des industries de l'ameublement et du bois"
+  },
+  {
+    "subActivite": "Artisanat du bois et de l'ameublement",
+    "job": "Artisans de l'ameublement"
+  },
+  {
+    "subActivite": "Artisanat du bois et de l'ameublement",
+    "job": "Artisans du travail mécanique du bois"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Opérateur de composition"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Préparateur en forme imprimante"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Photograveur"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Conducteur de machines d'impression"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Bobinier-receveur des industries graphiques"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Conducteur de machines de façonnage"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Opérateur d'exécution de façonnage"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Opérateur de laboratoire photographique"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Opérateur de laboratoire cinématographique"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Ouvrier de la photogravure et des laboratoires photographiques et cinématographiques"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Ouvrier de la composition et de l'impression, Ouvrier de la brochure, de la reliure et du façonnage du papier-carton"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Préparateur-correcteur des industries graphiques"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Assistants techniques, Technicien de l'imprimerie et de l'édition"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Agent d'encadrement des industries graphiques"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Agent d'encadrement des laboratoires photographiques et cinématographiques"
+  },
+  {
+    "subActivite": "Industries graphiques et d'imprimerie",
+    "job": "Technicien des industries graphiques"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Mécanicien de maintenance"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Mécanicien qualifié de maintenance, entretien : équipements industriels"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Mécanicien qualifié de maintenance, entretien : équipements non industriels"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Maintenicien en mécanique aéronautique"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Maintenicien en mécanique maritime"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Maintenicien en microsystèmes horlogers et photographiques"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Affûteur"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Électricien de maintenance"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Maintenicien en biens électrodomestiques"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Maintenicien en instruments de bord, équipements électriques et électroniques"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Électromécanicien, électricien qualifié d'entretien : équipements industriels"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Électricien, électronicien qualifié en maintenance, entretien : équipements non industriels"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Dépanneur qualifié en radiotélévision, électroménager, matériel électronique"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Polymaintenicien"
+  },
+  {
+    "subActivite": "Ouvrier de la maintenance",
+    "job": "Ouvrier d'entretien général des bâtiments"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Carrossier automobile"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Artisan tôlier-carrossier d'automobiles"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Réparateur en carrosserie"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Carrossier d'automobiles qualifié"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Peintre automobiles"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Preparateur vo"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Mécanicien et électronicien de véhicules"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Électricien, électronicien qualifié en maintenance entretien, réparation : automobile"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Mécanicien de véhicules particuliers et industriels"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Mécanicien en maintenance, entretien, réparation : automobile"
+  },
+  {
+    "subActivite": "Ouvrier de la réparation automobile",
+    "job": "Mécanicien d'engins de chantier, de levage et manutention et de machines agricoles"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Technicien d'installation et de maintenance des équipements industriels (électriques, électromécaniques, mécaniques, hors informatique)"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Technicien d'installation et de maintenance des équipements non industriels (hors informatique et télécommunications)"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Technicien de l'environnement et du traitement des pollutions"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Agent de traitement dépolluants"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Agent de maîtrise en maintenance, installation en électricité, électromécanique et électronique"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Agent de maîtrise en maintenance, installation en mécanique"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Agent d'encadrement de maintenance"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Technicien d'installation d'équipements industriels et professionnels"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Installateur-maintenicien en systèmes automatisés"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Installateur-maintenicien en ascenseurs et autres systèmes automatiques"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Maintenicien des systèmes thermiques, climatiques et frigorifiques"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Maintenicien en électronique"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Cadre technique de l'environnement"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Cadre technique de contrôle qualité"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Cadre technique d'entretien, maintenance, travaux neufs"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Cadre technique d'hygiène et sécurité"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Chargé de la protection du patrimoine naturel"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Technicien experts"
+  },
+  {
+    "subActivite": "Technicien ou agent de maîtrise de la maintenance et de l'environnement",
+    "job": "Agent de maîtrise en entretien général, installation, travaux neufs (hors mécanique, électromécanique, électronique)"
+  },
+  {
+    "subActivite": "Ingénieur et Cadre de fabrication et de la production",
+    "job": "Ingénieur et cadre de fabrication en matériel électrique, électronique"
+  },
+  {
+    "subActivite": "Ingénieur et Cadre de fabrication et de la production",
+    "job": "Ingénieur et cadre de fabrication en mécanique et travail des métaux"
+  },
+  {
+    "subActivite": "Ingénieur et Cadre de fabrication et de la production",
+    "job": "Ingénieur et cadre de fabrication des industries de transformation (agroalimentaire, chimie, métallurgie, matériaux lourds)"
+  },
+  {
+    "subActivite": "Ingénieur et Cadre de fabrication et de la production",
+    "job": "Ingénieur et cadre de la production et de la distribution d'énergie, eau"
+  },
+  {
+    "subActivite": "Ingénieur et Cadre de fabrication et de la production",
+    "job": "Ingénieur et cadre de fabrication des autres industries (imprimerie, matériaux souples, ameublement et bois)"
+  },
+  {
+    "subActivite": "Ingénieur et cadre de la maintenance, de l'entretien et des travaux neufs",
+    "job": "Ingénieur et cadre techniques de l'environnement"
+  },
+  {
+    "subActivite": "Ingénieur et cadre de la maintenance, de l'entretien et des travaux neufs",
+    "job": "Cadre technique d'entretien, maintenance, travaux neufs"
+  },
+  {
+    "subActivite": "Ingénieur et cadre de la maintenance, de l'entretien et des travaux neufs",
+    "job": "Chargé de la protection du patrimoine naturel"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Ingénieur et cadre des méthodes de production"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Ingénieur et cadre du contrôle-qualité"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Cadre technique de contrôle qualité"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Cadre technique d'hygiène et sécurité"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Testeur sensoriel"
+  },
+  {
+    "subActivite": "Ingénieurs méthodes de production, contrôle qualité",
+    "job": "Inspecteur de mise en conformité"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Agent de tri, d'emballage et d'expédition"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Agent des services d'exploitation des transports"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Agent du stockage et de la répartition de marchandises"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Agent de manipulation et de déplacement des charges"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Déménageur"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Agent de routage"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Ouvrier de la manutention, conducteur de chariots élévateurs, cariste"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Docker"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Magasinier qualifié"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Responsables d'entrepôt, de magasinage"
+  },
+  {
+    "subActivite": "Ouvrier du magasinage et de la manutention",
+    "job": "Responsables du tri, de l'emballage, de l'expédition et autres responsables de la manutention"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de transport de particuliers"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de taxis, ambulancier ou autre artisan du transport"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Ambulancier salarié"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de taxi"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de transport en commun (Réseau routier)"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur-livreur"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Agent distributeur"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de transport de marchandises (réseau routier)"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Artisan déménageur"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Transporteur indépendant routier ou fluvial"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur routier ou grand routier"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur de véhicule de ramassage des ordures ménagères"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur sur réseau guidé"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Agent de remontée filo-guidée"
+  },
+  {
+    "subActivite": "Conducteur de véhicules, Transport",
+    "job": "Conducteur d'engin lourd de manœuvre"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Agent de manœuvre du réseau ferré"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Agent de contrôle des transports en commun"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Responsable logistique"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Responsable d'exploitation des transports de voyageurs"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Cadre technique de méthodes-ordonnancement-planification"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Responsable d'exploitation des transports routiers de voyageurs"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Technicien de la logistique, du planning et de l'ordonnancement"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Technicien de préparation des vols"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Technicien de méthodes-ordonnancement-planification de l'industrie"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Personnel administratif de la circulation internationale des marchandises"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Affréteur"
+  },
+  {
+    "subActivite": "Agent d'exploitation des transports",
+    "job": "Litigeur transport"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Agent administratif des transports"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Employé des transports et du tourisme"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Technicien des transports et du tourisme"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Technicien de vente du tourisme et du transport"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Agent de voyage ou auxiliaire de transports indépendant"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Technicien de production du tourisme"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Personnel navigant technique de l'aviation"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Personnel navigant commercial de l'aviation civile"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Accompagnateur tourisme"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Hôtesse de l'air ou steward"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Autre agent ou hôtesse d'accompagnement"
+  },
+  {
+    "subActivite": "Agent administratif et commercial des transports et du tourisme",
+    "job": "Agent d'escale"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Responsable commercial et administratif des transports de voyageurs et du tourisme"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Responsable commercial ou administratif des transports de marchandises"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Ingénieur et cadre techniques de l'exploitation des transports"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Ingénieur du contrôle de la navigation aérienne"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Ingénieur et cadre de la logistique, du planning et de l'ordonnancement"
+  },
+  {
+    "subActivite": "Cadre des transports",
+    "job": "Contrôleur de la navigation aérienne"
+  },
+  {
+    "subActivite": "Secrétaire",
+    "job": "Secrétaire bureautique polyvalent"
+  },
+  {
+    "subActivite": "Secrétaire",
+    "job": "Secrétaire bureautique spécialisé"
+  },
+  {
+    "subActivite": "Secrétaire",
+    "job": "Dactylo, sténodactylo, opérateur de traitement de texte"
+  },
+  {
+    "subActivite": "Secrétaire",
+    "job": "Transcripteur dactylographe"
+  },
+  {
+    "subActivite": "Comptabilité",
+    "job": "Employé des services comptables ou financiers"
+  },
+  {
+    "subActivite": "Comptabilité",
+    "job": "Technicien des services comptables"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Agent d'accueil et d'information"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Aide familiale"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Agent ou hôtesse d'accueil et d'information"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Standardiste, téléphoniste"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Assistant en cabinet médical"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Employé administratif divers d'entreprises"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Distributeur messagerie"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Agent d'enquêtes"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Agent administratif d'entreprise"
+  },
+  {
+    "subActivite": "Employé administratif d'entreprise",
+    "job": "Technicien des services administratifs"
+  },
+  {
+    "subActivite": "Secrétaire de direction",
+    "job": "Secrétaire bureautique polyvalent"
+  },
+  {
+    "subActivite": "Secrétaire de direction",
+    "job": "Secrétaire bureautique spécialisé"
+  },
+  {
+    "subActivite": "Secrétaire de direction",
+    "job": "Assistant de direction"
+  },
+  {
+    "subActivite": "Secrétaire de direction",
+    "job": "Personnel de secrétariat de niveau supérieur, secrétaires de direction (non Cadre)"
+  },
+  {
+    "subActivite": "Technicien des services administratifs, comptables et financiers",
+    "job": "Maître ou technicien des autres services administratifs"
+  },
+  {
+    "subActivite": "Technicien des services administratifs, comptables et financiers",
+    "job": "Maître ou technicien des services juridiques ou du personnel"
+  },
+  {
+    "subActivite": "Technicien des services administratifs, comptables et financiers",
+    "job": "Maître ou technicien des services financiers ou comptables"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Responsable administratif et financier"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre des services financiers ou comptables"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Expert comptable, comptable agréé, libéral"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Conseil ou expert libéral en études économiques, organisation et recrutement, gestion et fiscalité"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre de l'audit et du contrôle comptable et financier"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre chargé d'études économiques, financières, commerciales"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre de l'organisation ou du contrôle des services administratifs et financiers"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre financier spécialisé"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Chargé d'analyses et de développement"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Analyste de gestion"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Responsable en organisation"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre spécialiste des ressources humaines et du recrutement"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre des autres services administratifs"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Juriste en entreprise"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre spécialiste de la formation"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Concepteur-organisateur en formation"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Cadre de la gestion des ressources humaines"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Responsable de formation en entreprise"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Conseiller en formation"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Responsable pédagogique"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Consultant en formation"
+  },
+  {
+    "subActivite": "Cadre administratif, comptable ou financier",
+    "job": "Trader/Courtier"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Dirigeant de PME / PMI"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef de moyenne entreprise"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef d'entreprise du bâtiment et des travaux publics"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef d'entreprise de l'industrie ou des transports"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef d'entreprise commerciale"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef d'entreprise de services"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Chef de grande entreprise"
+  },
+  {
+    "subActivite": "Dirigeants d'entreprises",
+    "job": "Cadre d'état-major de grandes entreprises privées"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Informaticien d'exploitation"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Informaticien d'étude"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Informaticien expert"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Organisateur informaticien"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Développeur PHP"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Développeur C/C++"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Webmaster"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Expert sécurité informatique"
+  },
+  {
+    "subActivite": "Informaticien",
+    "job": "Analyste Programmeur"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Technicien d'étude et de développement en informatique"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Technicien de production, d'exploitation en informatique"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Technicien d'installation, de maintenance, support et services aux utilisateurs en informatique"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Maintenicien en matériel bureautique"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Technicien des télécommunications et de l'informatique des réseaux"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Technicien de maintenance en informatique"
+  },
+  {
+    "subActivite": "Technicien de l'informatique",
+    "job": "Maintenicien en électronique"
+  },
+  {
+    "subActivite": "Ingénieur de l'informatique",
+    "job": "Ingénieur et cadre d'étude, recherche et développement en informatique"
+  },
+  {
+    "subActivite": "Ingénieur de l'informatique",
+    "job": "Chef de projets informatiques, responsables informatiques"
+  },
+  {
+    "subActivite": "Ingénieur de l'informatique",
+    "job": "Ingénieur et cadre d'administration, maintenance, support et services aux utilisateurs en informatique"
+  },
+  {
+    "subActivite": "Ingénieur de l'informatique",
+    "job": "Ingénieur et cadre spécialistes des télécommunications"
+  },
+  {
+    "subActivite": "Ingénieur ou Cadre de recherches et d'études",
+    "job": "Ingénieur conseils libéraux en études techniques"
+  },
+  {
+    "subActivite": "Ingénieur ou Cadre de recherches et d'études",
+    "job": "Ingénieur et cadre d'étude, recherche et développement en électricité, électronique"
+  },
+  {
+    "subActivite": "Ingénieur ou Cadre de recherches et d'études",
+    "job": "Ingénieur et cadre d'étude, recherche et développement en mécanique et travail des métaux"
+  },
+  {
+    "subActivite": "Ingénieur ou Cadre de recherches et d'études",
+    "job": "Ingénieur et cadre d'étude, recherche et développement des autres industries (imprimerie, matériaux souples, ameublement et bois, énergie, eau)"
+  },
+  {
+    "subActivite": "Ingénieur ou Cadre de recherches et d'études",
+    "job": "Ingénieur et cadre d'étude, recherche et développement des industries de transformation (agroalimentaire, chimie, métallurgie, matériaux lourds)"
+  },
+  {
+    "subActivite": "Chercheur",
+    "job": "Chercheurs de la recherche publique"
+  },
+  {
+    "subActivite": "Chercheur",
+    "job": "Chargé d'études et de recherche en sciences de l'Homme"
+  },
+  {
+    "subActivite": "Chercheur",
+    "job": "Cadre technique d'études scientifiques et de recherche fondamentale"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Adjoint administratif de la fonction publique (y.c. enseignement)"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Agent administratif de la fonction publique (y.c. enseignement)"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Agent des impôts et des douanes"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Agent de constatation ou de recouvrement des Impôts, du Trésor, des Douanes"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Agent d'application des règles financières publiques"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Employé des services au public"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Employé La Poste"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Employé France Télécom (statut public)"
+  },
+  {
+    "subActivite": "Employé administratif de la fonction publique (catégorie C)",
+    "job": "Agent de surveillance du patrimoine et des administrations"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Contrôleur des Impôts, du Trésor, des Douanes et assimilés"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Contrôleur de la régularité des finances publiques"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Contrôleur de l'utilisation des fonds publics"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Personnel de catégorie B des collectivités locales et des hôpitaux"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Autre personnel de catégorie B de l'État"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Technicien administratif des services au public"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Contrôleur de la défense des droits des personnes"
+  },
+  {
+    "subActivite": "Employés administratifs de la fonction publique (catégorie B)",
+    "job": "Professions intermédiaires de la Poste et des télécommunications"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre A de la fonction publique (hors spécialités juridiques) et assimilés"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Personnel de direction de la fonction publique (État, collectivités locales, hôpitaux)"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre responsable des ressources publiques"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Ingénieur de l'État (y.c. Ingénieur militaires) et assimilés"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Ingénieur des collectivités locales et des hôpitaux"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Conseiller en développement local"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Inspecteur ou autre personnel de catégorie A des Impôts, du Trésor et des Douanes"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Autre personnel administratif de catégorie A de l'État"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Personnel administratif de catégorie A des collectivités locales et hôpitaux publics"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre responsable de l'utilisation des fonds publics"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre technico-administratif des services au public"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre responsable de la mise en œuvre de la politique des pouvoirs publics"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre de la Poste et des télécommunications"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Cadre de l'armée et de la gendarmerie"
+  },
+  {
+    "subActivite": "Cadre de la fonction publique",
+    "job": "Officier des Armées et de la Gendarmerie (sauf officiers généraux)"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Avocat"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Notaire"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Géomètre-expert, huissier de justice, officier ministériel, professions libérales diverses"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Magistrat"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Collaborateur juridique"
+  },
+  {
+    "subActivite": "Professionnel du droit",
+    "job": "Cadre juridique garant des règles institutionnelles"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Agent de sécurité et de l'ordre public"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Agent de police de l'État"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Surveillant de l'administration pénitentiaire"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Gendarme"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Sergent et sous-officier des Armées"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Homme du rang"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Pompier"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Agent de polices municipales"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Cadre intermédiaire de la police et de l'armée"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Cadre chargé de la sécurité publique"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Inspecteur ou officier de police"
+  },
+  {
+    "subActivite": "Armée, police, pompiers",
+    "job": "Adjudant-chef, adjudant et sous-officier de rang supérieur de l'Armée et de la Gendarmerie"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Chargé de clientèle bancaire"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Agent administratif des opérations bancaires"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Agent de banque contact clientèle"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Agent commercial de banque"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Technicien des opérations bancaires"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Conseiller de clientèle bancaire"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Conseiller financier bancaire"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Attaché commercial bancaire"
+  },
+  {
+    "subActivite": "Employé ou technicien de la banque",
+    "job": "Conseiller en crédit bancaire"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Employé des services techniques des assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Employé des services techniques des organismes de sécurité sociale et assimilés"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Agent administratif d'assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Rédacteur juridique en assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Conseiller en assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Technicien souscripteur d'assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Inspecteur technico-administratif d'assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Inspecteur délégué aux indemnisations en assurances"
+  },
+  {
+    "subActivite": "Employé et technicien des assurances",
+    "job": "Chargé d'études actuarielles en assurances"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Cadre des marchés financiers"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Cadre des opérations bancaires"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Cadre commerciaux de la banque"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Chef d'établissements et responsable de l'exploitation bancaire"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Concepteur-gestionnaire de produits bancaires"
+  },
+  {
+    "subActivite": "Cadre de la banque",
+    "job": "Opérateur sur marché de capitaux"
+  },
+  {
+    "subActivite": "Cadre des assurances",
+    "job": "Agent général ou courtier d'assurance indépendant"
+  },
+  {
+    "subActivite": "Cadre des assurances",
+    "job": "Cadre des services techniques des assurances"
+  },
+  {
+    "subActivite": "Cadre des assurances",
+    "job": "Cadre des services techniques des organismes de sécurité sociale et assimilés"
+  },
+  {
+    "subActivite": "Cadre des assurances",
+    "job": "Responsable d'exploitation en assurances"
+  },
+  {
+    "subActivite": "Cadre des assurances",
+    "job": "Concepteur-animateur-développement de produits d'assurances"
+  },
+  {
+    "subActivite": "Caissier, employé de libre service",
+    "job": "Employé de libre service"
+  },
+  {
+    "subActivite": "Caissier, employé de libre service",
+    "job": "Animateur de vente"
+  },
+  {
+    "subActivite": "Caissier, employé de libre service",
+    "job": "Caissier"
+  },
+  {
+    "subActivite": "Caissier, employé de libre service",
+    "job": "Hôte de caisse de libre-service"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits alimentaires"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits frais"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en ameublement, équipement du foyer"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur d'articles de sport, de loisirs et d'équipement de la personne"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en habillement et articles de sport"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en équipement de la personne"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en articles de sport et de loisirs de plein air"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits utilitaires"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en droguerie, bazar, quincaillerie, bricolage"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en gros de biens d'équipement, biens intermédiaires"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits de luxe (hors produits culturels)"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits de beauté, de luxe (hors biens culturels) et optique"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Fleuriste"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur en produits culturels et ludiques"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur généraliste"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Vendeur de tabac, presse et articles divers"
+  },
+  {
+    "subActivite": "Vendeur",
+    "job": "Télévendeur / Vente par correspondance"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Attaché commercial en services auprès des entreprises"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Attaché commercial en biens d'équipements professionnels"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Attaché commercial en biens intermédiaires et matières professionnels"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Intermédiaire indépendant du commerce"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Attaché commercial en biens de consommation auprès des entreprises"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Conseiller en information médicale"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Représentants auprès des particuliers"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Représentant à domicile"
+  },
+  {
+    "subActivite": "Attaché commercial ou représentant",
+    "job": "Représentant en véhicules"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Petit et moyen détaillant en alimentation générale"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en ameublement, décor, équipement du foyer"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en droguerie, bazar, quincaillerie, bricolage"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Fleuriste"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en habillement et articles de sport"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en produits de beauté, de luxe (hors biens culturels)"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en biens culturels (livres, disques, multimédia, objets d'art)"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Détaillant en tabac, presse et articles divers"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Chef de petites surfaces de vente (salarié ou mandataire)"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Maîtrise de l'exploitation des magasins de vente"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Animateur commercial des magasins de vente, marchandiseur (non cadre)"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Chef de rayon produits frais"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Chef de rayon hors produits frais"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Responsable de caisse"
+  },
+  {
+    "subActivite": "Maîtrise des magasins",
+    "job": "Marchandiseur"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Petit et moyen grossiste en alimentation"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Petit et moyen grossiste en produits non alimentaires"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Acheteur non classé cadre, aide-acheteur"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Autres professions intermédiaires commerciales (sauf Technicien des forces de vente)"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Acheteur industriel"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Acheteur du commerce"
+  },
+  {
+    "subActivite": "Intermédiaire du commerce",
+    "job": "Technicien de la vente à distance"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Acheteur industriel"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre commercial des grandes entreprises (hors commerce de détail)"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Responsable de la stratégie commerciale"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre commercial des petites et moyennes entreprises (hors commerce de détail)"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Responsable des ventes"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Chef de produit"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre de gestion administrative des ventes"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Marchandiseur"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial en bâtiment, travaux publics"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial en matériel électrique ou électronique professionnel"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial en matériel mécanique professionnel"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial des industries de transformations (biens intermédiaires)"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre des achats et approvisionnements industriels"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur et cadre technico-commercial en informatique et télécommunications"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre des magasins"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre technico-commercial"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Ingénieur d'affaires"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre de l'exploitation des magasins de vente du commerce de détail"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Chef de département commercial"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Directeur de magasin"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Cadre de l'immobilier"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Agent immobilier, syndic"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Agent immobilier indépendant"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Chargé d'opérations immobilières"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Chargé de groupe d'immeubles"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Chargé de gestion globale en immobilier"
+  },
+  {
+    "subActivite": "Cadre commercial et technico-commercial",
+    "job": "Transacteur en immobilier"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Boulangerie, pâtissierie"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Apprenti boulanger"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Apprenti boucher"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Apprenti charcutier"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Préparateur en produits de pâtisserie-confiserie"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Employé en terminal de cuisson (boulangerie-viennoiserie)"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Préparateur en produits carnés"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Boucher (sauf industrie de la viande)"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Charcutier (sauf industrie de la viande)"
+  },
+  {
+    "subActivite": "Boucher, charcutier, boulanger",
+    "job": "Charcutierie, traiteur"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Employé polyvalent de restauration"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Cuisinier"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Maîtrise de restauration : cuisine / production"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Chef cuisinier"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Commis de cuisine"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Aide de cuisine"
+  },
+  {
+    "subActivite": "Cuisinier",
+    "job": "Plongeur cuisine"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Réceptionniste"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Employé d'étage"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Employé du hall"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Serveur en restauration"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Barman"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Employé de café, bar-brasserie"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Sommelier"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Maître d'hôtel"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Maîtrise de l'hébergement : hall et étages"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Gouvernant en établissement hôtelier"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Concierge d'hôtel"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Chef de réception"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Chef de rang"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Chef de cuisine"
+  },
+  {
+    "subActivite": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration",
+    "job": "Animateur d'activités de loisir"
+  },
+  {
+    "subActivite": "Cadre de l'hôtellerie et de la restauration",
+    "job": "Directeur d'hébergement"
+  },
+  {
+    "subActivite": "Cadre de l'hôtellerie et de la restauration",
+    "job": "Responsable de restauration de collectivité"
+  },
+  {
+    "subActivite": "Cadre de l'hôtellerie et de la restauration",
+    "job": "Directeur de restaurant"
+  },
+  {
+    "subActivite": "Cadre de l'hôtellerie et de la restauration",
+    "job": "Maîtrise de restauration : gestion d'établissement"
+  },
+  {
+    "subActivite": "Cadre de l'hôtellerie et de la restauration",
+    "job": "Assistant gestionnaire hotellerie"
+  },
+  {
+    "subActivite": "Coiffeur, esthéticien",
+    "job": "Coiffeur"
+  },
+  {
+    "subActivite": "Coiffeur, esthéticien",
+    "job": "Esthéticien-cosméticien"
+  },
+  {
+    "subActivite": "Coiffeur, esthéticien",
+    "job": "Assistant de coiffure"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Employé de ménage à domicile"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Aide à domicile et aide ménagère"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Intervenant à domicile"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Assistant maternel"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Intervenant auprès d'enfants"
+  },
+  {
+    "subActivite": "Employé de maison",
+    "job": "Employé de maison ou personnel de ménage"
+  },
+  {
+    "subActivite": "Agent de gardiennage et de sécurité",
+    "job": "Agent de sécurité et de surveillance"
+  },
+  {
+    "subActivite": "Agent de gardiennage et de sécurité",
+    "job": "Convoyeur de fonds, garde du corps"
+  },
+  {
+    "subActivite": "Agent de gardiennage et de sécurité",
+    "job": "Agent privé de recherches et métiers assimilés"
+  },
+  {
+    "subActivite": "Agent de gardiennage et de sécurité",
+    "job": "Concierge, gardien d'immeubles"
+  },
+  {
+    "subActivite": "Agent d'entretien d'établissements collectifs",
+    "job": "Agent de service des établissements primaires"
+  },
+  {
+    "subActivite": "Agent d'entretien d'établissements collectifs",
+    "job": "Agent de service des autres établissements d'enseignement"
+  },
+  {
+    "subActivite": "Agent d'entretien d'établissements collectifs",
+    "job": "Agent de service de la fonction publique (sauf écoles, hôpitaux)"
+  },
+  {
+    "subActivite": "Agent d'entretien d'établissements collectifs",
+    "job": "Agent de service hospitaliers (de la fonction publique ou du secteur privé)"
+  },
+  {
+    "subActivite": "Agent d'entretien d'établissements collectifs",
+    "job": "Agent de service de collectivité"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Nettoyeur de locaux et de surfaces"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Laveur de vitres spécialisé"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Agent d'entretien et de nettoyage urbain"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Agent d'entretien et d'assainissement"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Agent de traitements dépolluants"
+  },
+  {
+    "subActivite": "Ouvrier de l'assainissement et du traitement des déchets",
+    "job": "Ouvrier qualifié de l'assainissement et du traitement des déchets"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Exploitant et gérant de station-service"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Astrologues, professionnels de la parapsychologie, guérisseurs"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Employé technique des services funéraires"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Opérateur d'attractions"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Employé des jeux"
+  },
+  {
+    "subActivite": "Services divers",
+    "job": "Employé de station-service"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Chargé de communication"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Responsable de campagne publicitaire"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Responsable du plan média"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Traducteur, interprète"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Cadre de la publicité"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Cadre des relations publiques et de la communication"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Agent de promotion des artistes"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Assistant de la publicité, des relations publiques (indépendants ou salariés)"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Cadre et technicien de la documentation"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Cadre de la documentation, de l'archivage (hors fonction publique)"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Sous-bibliothécaire, cadre intermédiaire du patrimoine"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Spécialiste de la gestion de l'information"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Journaliste"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Directeur de journaux, administrateur de presse, directeur d'éditions (littéraire, musicale, audiovisuelle et multimédia)"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Rédacteur en chef"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Journaliste et cadre de l'édition"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Rédacteur de presse"
+  },
+  {
+    "subActivite": "Communication et Information Presse",
+    "job": "Coordinateur d'édition"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel de la mise en scène et de la réalisation"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel du son"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel de l'image"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel de l'éclairage"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel du décor et des accessoires"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel du costume et de l'habillage"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel de la coiffure et du maquillage"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel du montage, de l'image et du son"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Professionnel de la production des spectacles"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Concepteur ou assistant technique des arts graphiques, de la mode et de la décoration"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Aménageur d'espace intérieur"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Créateur de support de communication visuelle"
+  },
+  {
+    "subActivite": "Arts et Spectacles",
+    "job": "Stylicien industriel"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Artiste de la musique et du chant"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Artiste dramatique"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Artiste de la danse"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Artiste du cirque et du music-hall"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Animateur-présentateur"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Artiste plasticien"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Photographe"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Auteur-écrivain"
+  },
+  {
+    "subActivite": "Artiste (musique, danse, spectacles)",
+    "job": "Scénaristes, dialoguistes"
+  },
+  {
+    "subActivite": "Aide-soignant",
+    "job": "Auxiliaire de puériculture"
+  },
+  {
+    "subActivite": "Aide-soignant",
+    "job": "Aide médico-psychologique"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Infirmier psychiatrique"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Puéricultrice"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Infirmier spécialisé (autres que psychiatrique et puéricultrice)"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Infirmier en soins généraux"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Infirmier libéral"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Sage-femme"
+  },
+  {
+    "subActivite": "Infirmier, Sage-femme",
+    "job": "Cadre infirmier et assimilé"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Médecin libéral généraliste"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Médecin hospitalier"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Médecin salarié non hospitalier"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Interne en médecine, odontologie et pharmacie"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Chirurgien dentiste"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Vétérinaire"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Pharmacien"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Biologiste médical"
+  },
+  {
+    "subActivite": "Médecin et assimilé",
+    "job": "Médecin libéral spécialiste"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Préparateur en pharmacie"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Technicien de laboratoire d'analyses médicales"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Audioprothésiste"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Opticien-lunetier"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Prothésiste-dentaire"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Prothésiste-orthésiste"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Cadre des services paramédicaux"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Masseur Kinésithérapeute"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Ergothérapeute"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Psychomotricien"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Orthophoniste"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Orthoptiste"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Pédicure-podologue"
+  },
+  {
+    "subActivite": "Professionnel para-médical",
+    "job": "Diététicien"
+  },
+  {
+    "subActivite": "Psychologue, psychothérapeute",
+    "job": "Psychologue clinicien"
+  },
+  {
+    "subActivite": "Psychologue, psychothérapeute",
+    "job": "Psychologue, psychanalyste, psychothérapeute"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Professionnel de l'Orientation"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Psychologue de l'orientation scolaire et professionnelle"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Conseiller en emploi et en insertion professionnelle"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Animateur généraliste de loisirs"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Moniteur et éducateur sportif, sportif professionnel"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Animateur spécialiste d'activités sportives"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Directeur de centres socioculturels et de loisirs"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Sportif et animateur sportif"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Education spécialisée"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Cadre de l'intervention socio-éducative"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Educateur spécialisé"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Moniteur éducateur"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Educateur technique spécialisé, moniteurs d'atelier"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Educateur de jeunes enfants"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Surveillant d'établissements scolaires"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Conseiller principal d'éducation"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Professionnel de l'action sociale"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Assistant de service social"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Conseiller en économie sociale familiale"
+  },
+  {
+    "subActivite": "Action sociale, culturelle et sportive",
+    "job": "Chargé de protection des biens et des personnes"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Professeur d'art (hors établissements scolaires)"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Professeur d'enseignement général des collèges"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Professeur de lycée professionnel"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Maître auxiliaire et professeur contractuel de l'enseignement secondaire"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Enseignant d'enseignement général"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Enseignant d'enseignement technique (agricole, professionnel, technologique)"
+  },
+  {
+    "subActivite": "Professeur des écoles, Professeur du secondaire",
+    "job": "Professeur agrégé et certifié de l'enseignement secondaire"
+  },
+  {
+    "subActivite": "Directeur d'établissement scolaire",
+    "job": "Administrateur d'établissement d'enseignement secondaire et supérieur"
+  },
+  {
+    "subActivite": "Directeur d'établissement scolaire",
+    "job": "Administrateur d'école maternelle ou primaire"
+  },
+  {
+    "subActivite": "Inspecteur de l'enseignement, Professeur du supérieur",
+    "job": "Enseignant chercheur"
+  },
+  {
+    "subActivite": "Inspecteur de l'enseignement, Professeur du supérieur",
+    "job": "Enseignant de l'enseignement supérieur"
+  },
+  {
+    "subActivite": "Formateur",
+    "job": "Formateur ou animateur de formation continue"
+  },
+  {
+    "subActivite": "Formateur",
+    "job": "Moniteur d'école de conduite"
+  },
+  {
+    "subActivite": "Formateur",
+    "job": "Motivateur d'équipe de vente"
+  }
+]

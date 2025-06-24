@@ -1,0 +1,12 @@
+node_modules/
+.git/
+.vscode/
+dist/
+build/
+test
+.gitignore
+.prettierrc
+.dockerignore
+Dockerfile
+README.md
+src/uploads/*

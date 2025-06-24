@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Agriculture"
+  },
+  {
+    "name": "Bâtiment, travaux publics"
+  },
+  {
+    "name": "Electricité, Electronique"
+  },
+  {
+    "name": "Industrie"
+  },
+  {
+    "name": "Industries de process"
+  },
+  {
+    "name": "Matériaux souples, bois, industries graphiques"
+  },
+  {
+    "name": "Maintenance"
+  },
+  {
+    "name": "Ingénieurs, Cadre de l'industrie"
+  },
+  {
+    "name": "Transports, logistique et tourisme"
+  },
+  {
+    "name": "Gestion, administration des entreprises"
+  },
+  {
+    "name": "Informatique"
+  },
+  {
+    "name": "Études et recherche"
+  },
+  {
+    "name": "Fonction publique, professions juridiques"
+  },
+  {
+    "name": "Banque et assurances"
+  },
+  {
+    "name": "Commerce"
+  },
+  {
+    "name": "Hôtellerie, restauration, alimentation"
+  },
+  {
+    "name": "Services aux particuliers et aux collectivités"
+  },
+  {
+    "name": "Communication, information, art et spectacle"
+  },
+  {
+    "name": "Santé, action sociale, culturelle et sportive"
+  },
+  {
+    "name": "Enseignement, formation"
+  }
+]

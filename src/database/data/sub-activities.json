@@ -1,0 +1,366 @@
+[
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Gros œuvre du bâtiment, des travaux publics et de l'extraction"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Travaux publics, du béton et de l'extraction"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Gros œuvre du bâtiment"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Froid et climatisation"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Ouvrier du bâtiment, second œuvre"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Conducteurs d'engins du bâtiment et des travaux publics"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Technicien et Agent de maîtrise du bâtiment et des travaux publics"
+  },
+  {
+    "activityName": "Bâtiment, travaux publics",
+    "name": "Cadre du bâtiment et des travaux publics"
+  },
+  {
+    "activityName": "Electricité, Electronique",
+    "name": "Ouvrier de l'électricité et de l'électronique"
+  },
+  {
+    "activityName": "Electricité, Electronique",
+    "name": "Technicien et Agent de maîtrise de l'électricité et de l'électronique"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Ouvrier travaillant par enlèvement de métal"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Ouvrier travaillant par formage de métal, chaudronerie, tuyauterie, prototype"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Ouvrier réparation mécanique sur machines de chantiers, mécanique automobiles particuliers, mécanicien motocycles"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Ouvrier de la mécanique industrielle"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Technicien, Agent de maîtrise des industries mécaniques"
+  },
+  {
+    "activityName": "Industrie",
+    "name": "Technicien, cadres, énergie renouvelable"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Industries chimiques et plastiques"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Industries agro-alimentaires"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Métallurgie, verre et céramique"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Industrie du papier, du carton et du bois"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Autres types industriels"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Laboratoires"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Industrie de process"
+  },
+  {
+    "activityName": "Industries de process",
+    "name": "Industrie de transformation"
+  },
+  {
+    "activityName": "Matériaux souples, bois, industries graphiques",
+    "name": "Industrie du textile et du cuir"
+  },
+  {
+    "activityName": "Matériaux souples, bois, industries graphiques",
+    "name": "Artisanat du textile et du cuir"
+  },
+  {
+    "activityName": "Matériaux souples, bois, industries graphiques",
+    "name": "Industrie du travail du bois et de l'ameublement"
+  },
+  {
+    "activityName": "Matériaux souples, bois, industries graphiques",
+    "name": "Artisanat du bois et de l'ameublement"
+  },
+  {
+    "activityName": "Matériaux souples, bois, industries graphiques",
+    "name": "Industries graphiques et d'imprimerie"
+  },
+  {
+    "activityName": "Maintenance",
+    "name": "Ouvrier de la maintenance"
+  },
+  {
+    "activityName": "Maintenance",
+    "name": "Ouvrier de la réparation automobile"
+  },
+  {
+    "activityName": "Maintenance",
+    "name": "Technicien ou agent de maîtrise de la maintenance et de l'environnement"
+  },
+  {
+    "activityName": "Ingénieurs, Cadre de l'industrie",
+    "name": "Ingénieur et Cadre de fabrication et de la production"
+  },
+  {
+    "activityName": "Ingénieurs, Cadre de l'industrie",
+    "name": "Ingénieur et cadre de la maintenance, de l'entretien et des travaux neufs"
+  },
+  {
+    "activityName": "Ingénieurs, Cadre de l'industrie",
+    "name": "Directeurs techniques des grandes entreprises"
+  },
+  {
+    "activityName": "Ingénieurs, Cadre de l'industrie",
+    "name": "Ingénieurs méthodes de production, contrôle qualité"
+  },
+  {
+    "activityName": "Transports, logistique et tourisme",
+    "name": "Ouvrier du magasinage et de la manutention"
+  },
+  {
+    "activityName": "Transports, logistique et tourisme",
+    "name": "Conducteur de véhicules, Transport"
+  },
+  {
+    "activityName": "Transports, logistique et tourisme",
+    "name": "Agent d'exploitation des transports"
+  },
+  {
+    "activityName": "Transports, logistique et tourisme",
+    "name": "Agent administratif et commercial des transports et du tourisme"
+  },
+  {
+    "activityName": "Transports, logistique et tourisme",
+    "name": "Cadre des transports"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Secrétaire"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Comptabilité"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Employé administratif d'entreprise"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Secrétaire de direction"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Technicien des services administratifs, comptables et financiers"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Cadre administratif, comptable ou financier"
+  },
+  {
+    "activityName": "Gestion, administration des entreprises",
+    "name": "Dirigeants d'entreprises"
+  },
+  {
+    "activityName": "Informatique",
+    "name": "Informaticien"
+  },
+  {
+    "activityName": "Informatique",
+    "name": "Technicien de l'informatique"
+  },
+  {
+    "activityName": "Informatique",
+    "name": "Ingénieur de l'informatique"
+  },
+  {
+    "activityName": "Études et recherche",
+    "name": "Ingénieur ou Cadre de recherches et d'études"
+  },
+  {
+    "activityName": "Études et recherche",
+    "name": "Chercheur"
+  },
+  {
+    "activityName": "Fonction publique, professions juridiques",
+    "name": "Employé administratif de la fonction publique (catégorie C)"
+  },
+  {
+    "activityName": "Fonction publique, professions juridiques",
+    "name": "Employés administratifs de la fonction publique (catégorie B)"
+  },
+  {
+    "activityName": "Fonction publique, professions juridiques",
+    "name": "Cadre de la fonction publique"
+  },
+  {
+    "activityName": "Fonction publique, professions juridiques",
+    "name": "Professionnel du droit"
+  },
+  {
+    "activityName": "Fonction publique, professions juridiques",
+    "name": "Armée, police, pompiers"
+  },
+  {
+    "activityName": "Banque et assurances",
+    "name": "Employé ou technicien de la banque"
+  },
+  {
+    "activityName": "Banque et assurances",
+    "name": "Employé et technicien des assurances"
+  },
+  {
+    "activityName": "Banque et assurances",
+    "name": "Cadre de la banque"
+  },
+  {
+    "activityName": "Banque et assurances",
+    "name": "Cadre des assurances"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Caissier, employé de libre service"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Vendeur"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Attaché commercial ou représentant"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Maîtrise des magasins"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Intermédiaire du commerce"
+  },
+  {
+    "activityName": "Commerce",
+    "name": "Cadre commercial et technico-commercial"
+  },
+  {
+    "activityName": "Hôtellerie, restauration, alimentation",
+    "name": "Boucher, charcutier, boulanger"
+  },
+  {
+    "activityName": "Hôtellerie, restauration, alimentation",
+    "name": "Cuisinier"
+  },
+  {
+    "activityName": "Hôtellerie, restauration, alimentation",
+    "name": "Employé ou agent de maîtrise de l'hôtellerie et de la restauration"
+  },
+  {
+    "activityName": "Hôtellerie, restauration, alimentation",
+    "name": "Cadre de l'hôtellerie et de la restauration"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Coiffeur, esthéticien"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Employé de maison"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Agent de gardiennage et de sécurité"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Agent d'entretien d'établissements collectifs"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Ouvrier de l'assainissement et du traitement des déchets"
+  },
+  {
+    "activityName": "Services aux particuliers et aux collectivités",
+    "name": "Services divers"
+  },
+  {
+    "activityName": "Communication, information, art et spectacle",
+    "name": "Communication et Information Presse"
+  },
+  {
+    "activityName": "Communication, information, art et spectacle",
+    "name": "Arts et Spectacles"
+  },
+  {
+    "activityName": "Communication, information, art et spectacle",
+    "name": "Artiste (musique, danse, spectacles)"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Aide-soignant"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Infirmier, Sage-femme"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Médecin et assimilé"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Professionnel para-médical"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Psychologue, psychothérapeute"
+  },
+  {
+    "activityName": "Santé, action sociale, culturelle et sportive",
+    "name": "Action sociale, culturelle et sportive"
+  },
+  {
+    "activityName": "Enseignement, formation",
+    "name": "Professeur des écoles, Professeur du secondaire"
+  },
+  {
+    "activityName": "Enseignement, formation",
+    "name": "Directeur d'établissement scolaire"
+  },
+  {
+    "activityName": "Enseignement, formation",
+    "name": "Inspecteur de l'enseignement, Professeur du supérieur"
+  },
+  {
+    "activityName": "Enseignement, formation",
+    "name": "Formateur"
+  }
+]

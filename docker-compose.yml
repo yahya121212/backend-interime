@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: reallysecret
+      POSTGRES_DB: postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: interim_backend:latest
+    restart: always
+    ports:
+      - '3000:3000'
+    environment:
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_USER: postgres
+      DATABASE_PASSWORD: reallysecret
+      DATABASE_NAME: postgres
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./src:/app/src
+      - ./.env:/app/.env
+
+  # frontend:
+  #   build:
+  #     context: ../Frontend
+  #     dockerfile: Dockerfile
+  #   image: interim_frontend:latest
+  #   restart: always
+  #   ports:
+  #     - '4200:80'
+  #   depends_on:
+  #     - backend
+  #   volumes:
+  #     - ../Frontend/nginx.conf:/etc/nginx/conf.d/default.conf
+
+  api:
+    build:
+      context: ../OCR
+      dockerfile: Dockerfile
+    container_name: ocr-fastapi
+    ports:
+      - '8000:8000'
+    env_file:
+      - ../OCR/.env
+    volumes:
+      - ../OCR/uploads:/app/uploads
+    restart: always
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:

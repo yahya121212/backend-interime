@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Active",
+    "description": "Le compte utilisateur est actif et en règle.",
+    "context": "User"
+  },
+  {
+    "name": "Inactive",
+    "description": "Le compte utilisateur est inactif.",
+    "context": "User"
+  },
+  {
+    "name": "Hired",
+    "description": "Le candidat a été embauché pour un poste.",
+    "context": "User"
+  },
+  {
+    "name": "Suspended",
+    "description": "Le compte utilisateur est temporairement suspendu.",
+    "context": "User"
+  },
+  {
+    "name": "Pending",
+    "description": "Le compte utilisateur est en attente d'activation.",
+    "context": "User"
+  },
+  {
+    "name": "Banned",
+    "description": "Le compte utilisateur est définitivement banni.",
+    "context": "User"
+  },
+  {
+    "name": "Active",
+    "description": "L'entreprise est active et opérationnelle.",
+    "context": "Company"
+  },
+  {
+    "name": "Inactive",
+    "description": "L'entreprise est inactive.",
+    "context": "Company"
+  },
+  {
+    "name": "Pending",
+    "description": "L'enregistrement de l'entreprise est en attente d'approbation.",
+    "context": "Company"
+  },
+  {
+    "name": "Rejected",
+    "description": "L'enregistrement de l'entreprise a été rejeté.",
+    "context": "Company"
+  },
+  {
+    "name": "Unread",
+    "description": "La notification n'a pas été lue par l'utilisateur.",
+    "context": "Notification"
+  },
+  {
+    "name": "Read",
+    "description": "La notification a été lue par l'utilisateur.",
+    "context": "Notification"
+  },
+  {
+    "name": "Archived",
+    "description": "La notification a été archivée.",
+    "context": "Notification"
+  },
+  {
+    "name": "Deleted",
+    "description": "La notification a été supprimée.",
+    "context": "Notification"
+  },
+  {
+    "name": "Draft",
+    "description": "Le document est sous forme de brouillon et n'a pas été finalisé.",
+    "context": "Document"
+  },
+  {
+    "name": "Submitted",
+    "description": "Le document a été soumis pour révision ou traitement.",
+    "context": "Document"
+  },
+  {
+    "name": "In Review",
+    "description": "Le document est actuellement en cours de révision.",
+    "context": "Document"
+  },
+  {
+    "name": "Approved",
+    "description": "Le document a été examiné et approuvé.",
+    "context": "Document"
+  },
+  {
+    "name": "Rejected",
+    "description": "Le document a été examiné et rejeté.",
+    "context": "Document"
+  },
+  {
+    "name": "Archived",
+    "description": "Le document est archivé et n'est plus utilisé activement.",
+    "context": "Document"
+  },
+  {
+    "name": "Deleted",
+    "description": "Le document a été supprimé et n'est pas récupérable.",
+    "context": "Document"
+  },
+  {
+    "name": "Draft",
+    "description": "L'offre d'emploi est en cours de préparation et n'est pas encore visible pour les candidats.",
+    "context": "JobOffer"
+  },
+  {
+    "name": "Published",
+    "description": "L'offre d'emploi est en ligne et visible pour les candidats.",
+    "context": "JobOffer"
+  },
+  {
+    "name": "Closed",
+    "description": "L'offre d'emploi n'accepte plus de candidatures.",
+    "context": "JobOffer"
+  },
+  {
+    "name": "Applied",
+    "description": "Le candidat a postulé pour l'offre d'emploi.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Interviewing",
+    "description": "Le candidat est en cours de processus d'entretien pour l'offre d'emploi.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Accepted",
+    "description": "Le candidat a accepté l'offre d'emploi.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Rejected",
+    "description": "La candidature du candidat a été rejetée.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Offer Declined",
+    "description": "Le candidat a refusé l'offre d'emploi.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Onboarding",
+    "description": "Le candidat est en cours de processus d'intégration après avoir accepté l'offre.",
+    "context": "Candidate"
+  },
+  {
+    "name": "Recruitment Approved",
+    "description": "L'entreprise est approuvée pour recruter des candidats.",
+    "context": "Candidate"
+  }
+]
