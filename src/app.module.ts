@@ -75,7 +75,7 @@ import { join } from 'path';
         return {
           ...configService.get('database'),
           autoLoadEntities: true,
-          synchronize: true, // Just dev env
+          synchronize: false, // Just dev env
         };
       },
     }),
