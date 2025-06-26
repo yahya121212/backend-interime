@@ -1,6 +1,6 @@
 import { join } from 'path';
 
-export const FRONT_BASE_URL = 'https://agile-attitude.com';
+export const FRONT_BASE_URL = 'https://www.interim-online.fr';
 
 export const FRONT_LOGIN = `${FRONT_BASE_URL}/auth/login`;
 

@@ -5,11 +5,11 @@ export const isProduction = process.env.NODE_ENV === 'production';
 export const APP_HOST = 'http://localhost';
 
 export const FRONT_BASE_URL = isProduction
-  ? 'https://agile-attitude.com/'
+  ? 'https://interim-online.fr/'
   : `${APP_HOST}:4200`;
 
 export const BACK_BASE_URL = isProduction
-  ? 'https://agile-attitude.com/api'
+  ? 'https://interim-online.fr/api'
   : `${APP_HOST}:3000/api`;
 
 export const FRONT_LOGIN = `${FRONT_BASE_URL}/auth/login`;
