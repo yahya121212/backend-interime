@@ -36,6 +36,7 @@ export const CORS_CONFIG = {
     FRONT_BASE_URL,
     'http://46.202.129.82:4200',
     'https://agile-attitude.com',
+    'https://www.interim-online.fr'
   ],
   credentials: true,
   methods: 'GET,POST,PATCH,PUT,DELETE,OPTIONS',
