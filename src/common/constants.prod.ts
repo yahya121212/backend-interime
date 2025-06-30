@@ -23,6 +23,7 @@ export const CORS_CONFIG = {
   origin: [
     'https://www.interim-online.fr', // ton frontend hébergé
     'http://localhost:4200',         // pour dev local
+    'https://interim-online.fr', 
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],

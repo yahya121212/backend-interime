@@ -37,7 +37,8 @@ export const CORS_CONFIG = {
     'http://localhost:4200',         // pour dev local
     'http://46.202.129.82:4200',
     'https://agile-attitude.com',
-    'https://www.interim-online.fr'
+    'https://www.interim-online.fr',
+    'https://interim-online.fr',  
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
