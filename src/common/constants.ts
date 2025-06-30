@@ -31,16 +31,15 @@ export const FILE_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads/cvs');
 export const COVER_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads/covers');
 export const IMAGE_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads/images');
 
+ 
 export const CORS_CONFIG = {
   origin: [
-    FRONT_BASE_URL,
+    'http://localhost:4200',         // pour dev local
     'http://46.202.129.82:4200',
     'https://agile-attitude.com',
     'https://www.interim-online.fr'
   ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
-  methods: 'GET,POST,PATCH,PUT,DELETE,OPTIONS',
-  allowedHeaders: 'Content-Type, Authorization, X-Requested-With',
-  exposedHeaders: 'Content-Range,X-Content-Range',
-  maxAge: 3600,
 };
