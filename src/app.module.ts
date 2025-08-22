@@ -56,6 +56,7 @@ import { JobOfferLanguageModule } from './job-offer-language/job-offer-language.
 import { SocialMediaModule } from './social-media/social-media.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
+import { PageBuilderModule } from './page-builder/page-builder.module';
 
 @Module({
   imports: [
@@ -140,6 +141,7 @@ import { join } from 'path';
     InseeModule,
     JobOfferLanguageModule,
     SocialMediaModule,
+    PageBuilderModule,
   ],
   controllers: [AppController],
   providers: [
