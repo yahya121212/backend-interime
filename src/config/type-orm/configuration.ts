@@ -18,6 +18,6 @@ export default new DataSource({
   database: dbName,
 entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
 migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
-  migrationsRun: true,      // Si true, exécute automatiquement toutes les migrations au démarrage
+  migrationsRun: true,      
 
 });

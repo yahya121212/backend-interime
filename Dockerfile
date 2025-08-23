@@ -3,15 +3,17 @@ FROM node:20
 WORKDIR /app
 
 COPY package*.json ./
-
 RUN npm install
 
 COPY . .
 
-# Build the project
+# Build le projet
 RUN npm run build
+
+# Run migrations avant de lancer l'app
+RUN npm run typeorm migration:run
 
 EXPOSE 3000
 
-# Run the compiled JS instead of ts-node
+# Démarrer l'app
 CMD ["npm", "run", "start:prod"]
