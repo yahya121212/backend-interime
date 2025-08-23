@@ -17,8 +17,8 @@ export default new DataSource({
   username: dbUsername,
   password: dbPassword,
   database: dbName, 
-  entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
-  migrations:   [CreatePageBuilder1724430000000],
-  migrationsRun: true,    
+  // entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
+  // migrations:   [CreatePageBuilder1724430000000],
+  // migrationsRun: true,    
 
 });

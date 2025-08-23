@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Put, Get, Param } from '@nestjs/common';
+import { Controller, Post, Body, Put, Get, Param, Delete } from '@nestjs/common';
 import { PageBuilderService } from './page-builder.service';
 import { Public } from 'src/common/decorators/public.decorator';
 
@@ -30,5 +30,9 @@ export class PageBuilderController {
     @Get()
     findAll() {
         return this.service.findAll();
+    }
+    @Delete(':id')
+    remove(@Param('id') id: string) {
+        return this.service.remove(Number(id));
     }
 }
