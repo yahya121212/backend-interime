@@ -21,8 +21,11 @@
       "src/*": ["./src/*"]
     }
   },
+  "include": [
+    "src/**/*.ts",             // tous les fichiers TS de src
+    "src/migrations/**/*.ts"   // inclut explicitement les migrations
+  ],
   "watchOptions": {
-    //use a dinamic polling instead of system's native events for file changes
     "watchFile": "dynamicprioritypolling",
     "watchDirectory": "dynamicprioritypolling",
     "excludeDirectories": ["**/node_modules", "dist"]
