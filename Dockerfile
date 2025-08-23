@@ -7,10 +7,10 @@ RUN npm install
 
 COPY . .
 
-# Build le projet avec migrations incluses
+# Build TypeScript + migrations
 RUN npm run build
 
 EXPOSE 3000
 
-# Start prod: TypeORM va exécuter les migrations automatiquement
+# Start prod : TypeORM exécutera les migrations automatiquement
 CMD ["npm", "run", "start:prod"]
