@@ -10,10 +10,9 @@ COPY . .
 # Build le projet
 RUN npm run build
 
-# Run migrations avant de lancer l'app
-RUN npm run typeorm migration:run
+# Run migrations à partir du JS compilé
+RUN node dist/data-source.js migration:run
 
 EXPOSE 3000
 
-# Démarrer l'app
 CMD ["npm", "run", "start:prod"]
