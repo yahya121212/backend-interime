@@ -16,8 +16,9 @@ export default new DataSource({
   username: dbUsername,
   password: dbPassword,
   database: dbName,
-entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
-migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
-  migrationsRun: true,      
+  entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
+  migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
+  migrationsRun: true,    
+    
 
 });
