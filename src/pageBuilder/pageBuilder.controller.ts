@@ -1,7 +1,7 @@
 import { Controller, Post, Body, Get, Param, Put } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { PageBuilder } from './page-builder.entity';
+import { PageBuilder } from './entities/page-builder.entity';
 import { Public } from 'src/common/decorators/public.decorator';
 
 @Public() // Assurez-vous que ce décorateur est importé depuis le bon chemin

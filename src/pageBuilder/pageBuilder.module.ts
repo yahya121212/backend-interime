@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { PageBuilder } from './page-builder.entity';
+import { PageBuilder } from './entities/page-builder.entity';
 import { PageBuilderController } from './pageBuilder.controller';
 import { PageBuilderService } from 'src/page-builder/page-builder.service';
 
