@@ -16,14 +16,11 @@ export default new DataSource({
   port: 5432,
   username: dbUsername,
   password: dbPassword,
-  database: dbName,
+  database: dbName, 
   entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
-  // migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
-    migrations: isDevEnv
+  migrations: isDevEnv
     ? [CreatePageBuilder1724430000000]
-    : ['dist/migrations/*.js'],
-
+    : [require('./dist/migrations/1724430000000-CreatePageBuilder.js').default],
   migrationsRun: true,    
-    
 
 });
