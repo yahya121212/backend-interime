@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { PageBuilder } from './page-builder.entity';
+import { PageBuilder } from './entities/page-builder.entity';
 
 @Injectable()
 export class PageBuilderService {
