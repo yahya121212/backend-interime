@@ -1,6 +1,7 @@
 import { DataSource } from 'typeorm';
 import * as dotenv from 'dotenv';
 import { NodeEnv } from '../configuration';
+import { CreatePageBuilder1724430000000 } from 'src/migrations/1724430000000-CreatePageBuilder';
 dotenv.config();
 
 const isDevEnv = process.env.NODE_ENV !== NodeEnv.Prod;
@@ -17,7 +18,11 @@ export default new DataSource({
   password: dbPassword,
   database: dbName,
   entities: [isDevEnv ? 'src/**/*.entity.ts' : 'dist/**/*.entity.js'],
-  migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
+  // migrations: [isDevEnv ? 'src/migrations/**/*.ts' : 'dist/migrations/**/*.js'],
+    migrations: isDevEnv
+    ? [CreatePageBuilder1724430000000]
+    : ['dist/migrations/*.js'],
+
   migrationsRun: true,    
     
 
