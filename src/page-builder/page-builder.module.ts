@@ -8,7 +8,7 @@ import { PageBuilderController } from './page-builder.controller';
   imports: [TypeOrmModule.forFeature([PageBuilder])],
   providers: [PageBuilderService],
   controllers: [PageBuilderController],
-    exports: [TypeOrmModule, PageBuilderService], // <-- make public
+  exports: [TypeOrmModule, PageBuilderService], // <-- make public
 
 })
 export class PageBuilderModule {}
