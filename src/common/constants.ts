@@ -40,7 +40,7 @@ export const CORS_CONFIG = {
     'https://www.interim-online.fr',
     'https://interim-online.fr',  
   ],
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  methods: ['GET', 'POST','PATCH', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
 };

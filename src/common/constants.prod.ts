@@ -25,7 +25,7 @@ export const CORS_CONFIG = {
     'http://localhost:4200',         // pour dev local
     'https://interim-online.fr', 
   ],
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  methods: ['GET', 'POST','PATCH', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
 };
