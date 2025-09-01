@@ -38,6 +38,7 @@ export class SeederService implements OnModuleInit {
     private readonly userService: PersonService,
     private readonly contractTypeService: ContractTypeService,
     private readonly skillService: SkillService,
+    
     private readonly languageService: LanguageService,
   ) {}
 
