@@ -37,14 +37,16 @@ services:
       DATABASE_NAME: postgres
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      UPLOAD_PATH: /app/uploads
+      UPLOAD_PATH: /app/uploads/cvs   
     depends_on:
       - db
       - redis
     volumes:
-      - ./src:/app/src
-      - ./.env:/app/.env
-      - uploads_volume:/app/uploads
+      # Remove these development mounts:
+      # - ./src:/app/src
+      # - ./.env:/app/.env
+      # Add persistent volume for uploads:
+      - uploads_volume: /app/uploads
 
   # frontend:
   #   build:
@@ -77,4 +79,5 @@ services:
 volumes:
   postgres_data:
   redis_data:
-  uploads_volume:  # This is correct - no value needed
+  uploads_volume: /app/uploads
+

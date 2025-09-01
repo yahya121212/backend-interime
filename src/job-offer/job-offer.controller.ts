@@ -40,7 +40,7 @@ export class JobOfferController {
     private readonly statusService: StatusService,
     private readonly contractTypeService: ContractTypeService,
     private readonly jobService: JobService,
-    private readonly cityService: CityService,
+    private readonly cityService: CityService,  
     private readonly skillService: SkillService,
     private readonly languageService: LanguageService,
     private readonly jobOfferLanguageService: JobOfferLanguageService,

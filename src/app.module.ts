@@ -61,7 +61,7 @@ import { PageBuilderModule } from './page-builder/page-builder.module';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath:  "uploads/cvs",
+      rootPath: join(__dirname, '..', 'src', 'uploads'),
       serveRoot: '/api/uploads',
     }),
     ConfigModule.forRoot({
@@ -82,7 +82,7 @@ import { PageBuilderModule } from './page-builder/page-builder.module';
     }),
     TypeOrmModule.forFeature([SeedStatus]),
     MulterModule.register({
-      dest: "uploads/cvs",
+      dest: FILE_UPLOAD_DIR,
       limits: {
         fileSize: 1000 * 1000 * 10,
       },
