@@ -5,6 +5,9 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+RUN mkdir -p /app/uploads/cvs /app/uploads/covers /app/uploads/images
+
+
 COPY . .
 
 # Build TypeScript + migrations
