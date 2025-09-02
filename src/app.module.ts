@@ -61,7 +61,8 @@ import { PageBuilderModule } from './page-builder/page-builder.module';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'src', 'uploads'),
+      // rootPath: join(__dirname, '..', 'src', 'uploads'),
+      rootPath: join('/app', 'uploads'),
       serveRoot: '/api/uploads',
     }),
     ConfigModule.forRoot({

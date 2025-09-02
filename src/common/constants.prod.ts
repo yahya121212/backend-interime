@@ -14,11 +14,10 @@ export const APP_PHONE = '+33 1 40 34 10 45';
 export const APP_EMAIL = 'contact@interim-online-pro-tech.com';
 
 // Upload File
-export const FILE_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads');
-export const COVER_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads/covers');
-export const IMAGE_UPLOAD_DIR = join(process.cwd(), 'src', 'uploads/images');
+export const FILE_UPLOAD_DIR =   '/app/uploads/cvs';
+export const COVER_UPLOAD_DIR =   '/app/uploads/covers';
+export const IMAGE_UPLOAD_DIR =  '/app/uploads/images';
 
- 
 export const CORS_CONFIG = {
   origin: [
     'https://www.interim-online.fr', // ton frontend hébergé
