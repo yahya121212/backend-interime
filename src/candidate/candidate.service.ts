@@ -27,8 +27,7 @@ export class CandidateService {
     private readonly candidateLanguageRepo: Repository<CandidateLanguage>,
     @InjectRepository(CandidateSkill)
     private readonly candidateskillRepo: Repository<CandidateSkill>,
-    @InjectRepository(CandidateJobOffer)
-    private readonly candidateJobOfferRepo: Repository<CandidateJobOffer>,
+ 
     private readonly statusService: StatusService,
     private emailService: EmailService,
   ) { }
@@ -221,7 +220,6 @@ export class CandidateService {
     // seront automatiquement supprimées
       // ⚡ Supprime manuellement les entités sans cascade
   await this.candidateskillRepo.delete({ candidate: { id } });
-  await this.candidateJobOfferRepo.delete({ candidate: { id } });
   await this.candidateLanguageRepo.delete({ candidate: { id } });
 
   // ⚡ Supprime le candidat → les relations avec cascade seront supprimées automatiquement
