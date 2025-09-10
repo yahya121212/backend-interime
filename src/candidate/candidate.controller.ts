@@ -40,7 +40,10 @@ import { Role } from 'src/common/enums/role.enum';
 import * as bcrypt from 'bcrypt';
 import { EmailService } from 'src/message/email.service';
 import { Public } from 'src/common/decorators/public.decorator';
+import { Repository } from 'typeorm';
 
+import { InjectRepository } from '@nestjs/typeorm';
+import { PersonalDocument } from 'src/personal-document/entities/personal-document.entity';
 @Controller('candidates')
 export class CandidateController {
   constructor(
@@ -54,7 +57,10 @@ export class CandidateController {
     private readonly skillService: SkillService,
     private readonly statusService: StatusService,
     private readonly emailService: EmailService,
-  ) {}
+    @InjectRepository(PersonalDocument)
+    private readonly personalDocumentRepository: Repository<PersonalDocument>,
+
+  ) { }
 
   @Roles('admin')
   @UseGuards(JwtAuthGuard, RoleGuard)
@@ -334,7 +340,10 @@ export class CandidateController {
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
+  async remove(@Param('id') id: string) {
+    await this.personalDocumentRepository.delete({
+      candidate: { id: id },
+    });
     return this.candidatService.delete(id);
   }
 
