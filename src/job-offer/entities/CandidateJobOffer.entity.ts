@@ -21,8 +21,8 @@ export class CandidateJobOffer {
   status: Status;
 
   @ManyToOne(() => Candidate, (candidate) => candidate.candidateJobOffers, {
-    onDelete: 'CASCADE',
-  })
+    onDelete: 'SET NULL',
+  }) 
   candidate: Candidate;
 
   @ManyToOne(() => JobOffer, (jobOffer) => jobOffer.candidateJobOffers)
