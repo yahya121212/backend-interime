@@ -344,7 +344,7 @@ export class CandidateController {
        await this.personalDocumentRepository.delete({
       candidate: { id: id },
     });
-    return this.candidatService.deleteCandidate(id);
+    return this.candidatService.delete(id);
   }
 
   
