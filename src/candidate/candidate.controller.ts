@@ -341,9 +341,9 @@ export class CandidateController {
 
   @Delete(':id')
   async remove(@Param('id') id: string) {
-       await this.personalDocumentRepository.delete({
-      candidate: { id: id },
-    });
+    //    await this.personalDocumentRepository.delete({
+    //   candidate: { id: id },
+    // });
     return this.candidatService.deleteCandidate(id);
   }
 
