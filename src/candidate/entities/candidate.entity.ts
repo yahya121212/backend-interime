@@ -57,8 +57,8 @@ export class Candidate extends Person {
   experiences: Experience[];
 
   @OneToMany(() => Formation, (formation) => formation.candidate, {
-    cascade: true,
-  })
+    onDelete: 'SET NULL',
+  }) 
   formations: Formation[];
 
   @ManyToMany(() => Job, (job) => job.candidates)

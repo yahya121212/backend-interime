@@ -28,7 +28,8 @@ export class Formation {
   type: string;
 
   @ManyToOne(() => Candidate, (candidate) => candidate.formations, {
-  onDelete: "CASCADE",
+  onDelete: 'SET NULL',
+  nullable: true,
 })
   candidate: Candidate;
 }

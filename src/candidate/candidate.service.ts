@@ -18,6 +18,7 @@ import { Status } from 'src/status/entities/status.entity';
 import { EmailService } from 'src/message/email.service';
 import { Experience } from 'src/experience/entities/experience.entity';
 import { PersonalDocument } from 'src/personal-document/entities/personal-document.entity';
+import { Formation } from 'src/formation/entities/formation.entity';
 
 @Injectable()
 export class CandidateService {
@@ -32,7 +33,8 @@ export class CandidateService {
     private readonly experienceRepository: Repository<Experience>,
     @InjectRepository(PersonalDocument)
     private readonly personalDocumentRepository: Repository<PersonalDocument>,
-
+    @InjectRepository(Formation)
+    private readonly FormationtRepository: Repository<PersonalDocument>,
 
     private readonly statusService: StatusService,
     private emailService: EmailService,
@@ -197,6 +199,7 @@ export class CandidateService {
     await this.experienceRepository.delete({ candidate: { id } });
     await this.candidateskillRepo.delete({ candidate: { id } });
     await this.candidateLanguageRepo.delete({ candidate: { id } });
+    await this.FormationtRepository.delete({ candidate: { id } });
     await this.personalDocumentRepository.delete({
       candidate: { id: id },
     });
