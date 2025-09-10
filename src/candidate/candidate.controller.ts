@@ -342,9 +342,10 @@ export class CandidateController {
   @Delete(':id')
   async remove(@Param('id') id: string) {
    
-    return this.candidatService.delete(id);
+    return this.candidatService.deleteCandidate(id);
   }
 
+  
   @Post(':id/profile')
   @UseInterceptors(
     FileInterceptor('image', {

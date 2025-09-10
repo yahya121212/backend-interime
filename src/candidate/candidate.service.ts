@@ -188,7 +188,35 @@ export class CandidateService {
   async delete(id: string) {
     await this.candidateRepository.delete(id);
   }
+  async deleteCandidate(id: string): Promise<void> {
+    // Vérifier si le candidat existe
+    const candidate = await this.candidateRepository.findOne({
+      where: { id },
+      relations: [
+        'personalDocuments',
+        'candidateSkills',
+        'candidateJobOffers',
+        'candidateLanguages',
+        'experiences',
+        'formations',
+        'jobs',
+      ],
+    });
 
+    if (!candidate) {
+      throw new NotFoundException(`Candidate with ID ${id} not found`);
+    }
+
+    // ⚡ Supprime les relations ManyToMany explicitement (jobs)
+    if (candidate.jobs && candidate.jobs.length > 0) {
+      candidate.jobs = [];
+      await this.candidateRepository.save(candidate);
+    }
+
+    // ⚡ Supprimer le candidat → les relations @OneToMany avec onDelete: "CASCADE"
+    // seront automatiquement supprimées
+    await this.candidateRepository.remove(candidate);
+  }
   async save(candidate: Candidate): Promise<Candidate> {
     return await this.candidateRepository.save(candidate);
   }
