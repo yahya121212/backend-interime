@@ -27,6 +27,8 @@ export class Formation {
   @Column({ nullable: true })
   type: string;
 
-  @ManyToOne(() => Candidate, (candidate) => candidate.experiences)
+  @ManyToOne(() => Candidate, (candidate) => candidate.formations, {
+  onDelete: "CASCADE",
+})
   candidate: Candidate;
 }

@@ -21,6 +21,8 @@ export class Experience {
   @Column({ nullable: true, type: 'text' })
   description?: string; // Description of duties or achievements in the position
 
-  @ManyToOne(() => Candidate, (candidate) => candidate.experiences)
-  candidate: Candidate;
+@ManyToOne(() => Candidate, (candidate) => candidate.experiences, {
+  onDelete: "CASCADE",
+})
+candidate: Candidate;
 }
