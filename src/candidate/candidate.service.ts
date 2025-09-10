@@ -17,7 +17,6 @@ import { FilterCandidatesDto } from './entities/filter.dto';
 import { Status } from 'src/status/entities/status.entity';
 import { EmailService } from 'src/message/email.service';
 import { CandidateJobOffer } from 'src/job-offer/entities/CandidateJobOffer.entity';
-import { PersonalDocument } from 'src/personal-document/entities/personal-document.entity';
 
 @Injectable()
 export class CandidateService {
@@ -28,8 +27,7 @@ export class CandidateService {
     private readonly candidateLanguageRepo: Repository<CandidateLanguage>,
     @InjectRepository(CandidateSkill)
     private readonly candidateskillRepo: Repository<CandidateSkill>,
-     @InjectRepository(PersonalDocument)
-     private readonly personalDocumentRepository: Repository<PersonalDocument>,
+
     private readonly statusService: StatusService,
     private emailService: EmailService,
   ) { }
@@ -189,54 +187,38 @@ export class CandidateService {
     return await this.candidateskillRepo.save(candidateSkill);
   }
 
-  async delete(id: string) { 
-
+  async delete(id: string) {
     await this.candidateRepository.delete(id);
   }
- async deleteCandidate(id: string): Promise<void> {
-  // 1️⃣ Récupérer le candidat avec toutes les relations
-  const candidate = await this.candidateRepository.findOne({
-    where: { id },
-    relations: [
-      'personalDocuments',
-      'candidateSkills',
-      'candidateJobOffers',
-      'candidateLanguages',
-      'experiences',
-      'formations',
-      'jobs',
-    ],
-  });
+  async deleteCandidate(id: string): Promise<void> {
+    // Vérifier si le candidat existe
+    const candidate = await this.candidateRepository.findOne({
+      where: { id },
+      relations: [
+        'personalDocuments',
+        'candidateSkills',
+        'candidateJobOffers',
+        'candidateLanguages',
+        'experiences',
+        'formations',
+        'jobs',
+      ],
+    });
 
-  if (!candidate) {
-    throw new NotFoundException(`Candidate with ID ${id} not found`);
+    if (!candidate) {
+      throw new NotFoundException(`Candidate with ID ${id} not found`);
+    }
+
+    // ⚡ Supprime les relations ManyToMany explicitement (jobs)
+    if (candidate.jobs && candidate.jobs.length > 0) {
+      candidate.jobs = [];
+
+      await this.candidateRepository.save(candidate);
+    }
+    await this.candidateskillRepo.delete({ candidate: { id } });
+    await this.candidateLanguageRepo.delete({ candidate: { id } });
+    await this.candidateRepository.remove(candidate);
   }
-  if (candidate.jobs && candidate.jobs.length > 0) {
-    candidate.jobs = [];
-    await this.candidateRepository.save(candidate);
-  }
-
-  await this.candidateskillRepo
-    .createQueryBuilder()
-    .delete()
-    .where("candidate_id = :id", { id })
-    .execute();
- 
- 
-  await this.candidateLanguageRepo
-    .createQueryBuilder()
-    .delete()
-    .where("candidate_id = :id", { id })
-    .execute();
-  await this.personalDocumentRepository
-    .createQueryBuilder()
-    .delete()
-    .where("candidate_id = :id", { id })
-    .execute();
-
-  await this.candidateRepository.remove(candidate);
-}
-
   async save(candidate: Candidate): Promise<Candidate> {
     return await this.candidateRepository.save(candidate);
   }
