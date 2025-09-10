@@ -35,7 +35,6 @@ import { Experience } from 'src/experience/entities/experience.entity';
       City,
       CandidateSkill,
       CandidateLanguage,
-      Experience,
     ]),
     LocationModule,
     JobModule,

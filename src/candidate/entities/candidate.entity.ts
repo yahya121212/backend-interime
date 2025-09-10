@@ -29,7 +29,7 @@ export class Candidate extends Person {
   contract: Contract;
 
   @OneToMany(() => PersonalDocument, (document) => document.candidate, {
-    cascade: true,
+    onDelete: 'SET NULL',
   })
   personalDocuments: PersonalDocument[];
 
