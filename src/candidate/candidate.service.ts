@@ -28,8 +28,8 @@ export class CandidateService {
     private readonly candidateLanguageRepo: Repository<CandidateLanguage>,
     @InjectRepository(CandidateSkill)
     private readonly candidateskillRepo: Repository<CandidateSkill>,
-    @InjectRepository(Experience)
-    private readonly experienceRepository: Repository<Experience>,
+    // @InjectRepository(Experience)
+    // private readonly experienceRepository: Repository<Experience>,
 
     private readonly statusService: StatusService,
     private emailService: EmailService,
@@ -191,12 +191,12 @@ export class CandidateService {
   }
 
   async delete(id: string) {
-    await this.experienceRepository
-      .createQueryBuilder()
-      .update()
-      .set({ candidate: null })
-      .where("candidate_id = :id", { id })
-      .execute();
+    // await this.experienceRepository
+    //   .createQueryBuilder()
+    //   .update()
+    //   .set({ candidate: null })
+    //   .where("candidate_id = :id", { id })
+    //   .execute();
     await this.candidateRepository.delete(id);
   }
   async deleteCandidate(id: string): Promise<void> {
