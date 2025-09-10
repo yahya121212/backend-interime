@@ -16,6 +16,7 @@ import { Skill } from 'src/skill/entities/skill.entity';
 import { FilterCandidatesDto } from './entities/filter.dto';
 import { Status } from 'src/status/entities/status.entity';
 import { EmailService } from 'src/message/email.service';
+import { CandidateJobOffer } from 'src/job-offer/entities/CandidateJobOffer.entity';
 
 @Injectable()
 export class CandidateService {
@@ -26,6 +27,8 @@ export class CandidateService {
     private readonly candidateLanguageRepo: Repository<CandidateLanguage>,
     @InjectRepository(CandidateSkill)
     private readonly candidateskillRepo: Repository<CandidateSkill>,
+    @InjectRepository(CandidateJobOffer)
+    private readonly candidateJobOfferRepo: Repository<CandidateJobOffer>,
     private readonly statusService: StatusService,
     private emailService: EmailService,
   ) { }
@@ -210,11 +213,19 @@ export class CandidateService {
     // ⚡ Supprime les relations ManyToMany explicitement (jobs)
     if (candidate.jobs && candidate.jobs.length > 0) {
       candidate.jobs = [];
+      
       await this.candidateRepository.save(candidate);
     }
 
     // ⚡ Supprimer le candidat → les relations @OneToMany avec onDelete: "CASCADE"
     // seront automatiquement supprimées
+      // ⚡ Supprime manuellement les entités sans cascade
+  await this.candidateskillRepo.delete({ candidate: { id } });
+  await this.candidateJobOfferRepo.delete({ candidate: { id } });
+  await this.candidateLanguageRepo.delete({ candidate: { id } });
+
+  // ⚡ Supprime le candidat → les relations avec cascade seront supprimées automatiquement
+  await this.candidateRepository.remove(candidate);
     await this.candidateRepository.remove(candidate);
   }
   async save(candidate: Candidate): Promise<Candidate> {
