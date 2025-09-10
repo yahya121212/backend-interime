@@ -25,37 +25,49 @@ export class Candidate extends Person {
   @Column({ nullable: true })
   image?: string;
 
-  @ManyToOne(() => Contract, (contract) => contract.candidates)
+  @ManyToOne(() => Contract, (contract) => contract.candidates, {
+    onDelete: "SET NULL", // le contrat reste
+  })
   contract: Contract;
 
   @OneToMany(() => PersonalDocument, (document) => document.candidate, {
     cascade: true,
+    onDelete: "CASCADE", // supprimer les documents avec le candidat
   })
   personalDocuments: PersonalDocument[];
 
-  @OneToMany(() => CandidateSkill, (candidateSkill) => candidateSkill.candidate)
+  @OneToMany(() => CandidateSkill, (candidateSkill) => candidateSkill.candidate, {
+    cascade: true,
+    onDelete: "CASCADE",
+  })
   candidateSkills: CandidateSkill[];
 
-  @OneToMany(
-    () => CandidateJobOffer,
-    (candidateJobOffer) => candidateJobOffer.candidate,
-  )
+  @OneToMany(() => CandidateJobOffer, (candidateJobOffer) => candidateJobOffer.candidate, {
+    cascade: true,
+    onDelete: "CASCADE",
+  })
   candidateJobOffers: CandidateJobOffer[];
 
-  @ManyToOne(() => Company, (company) => company.candidates)
+  @ManyToOne(() => Company, (company) => company.candidates, {
+    onDelete: "SET NULL", // la société reste
+  })
   company: Company;
 
-  @OneToMany(
-    () => CandidateLanguage,
-    (candidateLang) => candidateLang.candidate,
-  )
+  @OneToMany(() => CandidateLanguage, (candidateLang) => candidateLang.candidate, {
+    cascade: true,
+    onDelete: "CASCADE",
+  })
   candidateLanguages: CandidateLanguage[];
 
-  @OneToMany(() => Experience, (exp) => exp.candidate, { cascade: true })
+  @OneToMany(() => Experience, (exp) => exp.candidate, {
+    cascade: true,
+    onDelete: "CASCADE",
+  })
   experiences: Experience[];
 
   @OneToMany(() => Formation, (formation) => formation.candidate, {
     cascade: true,
+    onDelete: "CASCADE",
   })
   formations: Formation[];
 
@@ -63,3 +75,4 @@ export class Candidate extends Person {
   @JoinTable()
   jobs: Job[];
 }
+
