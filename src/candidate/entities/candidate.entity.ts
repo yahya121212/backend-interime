@@ -60,7 +60,7 @@ export class Candidate extends Person {
   candidateLanguages: CandidateLanguage[];
 
   @OneToMany(() => Experience, (exp) => exp.candidate, {
-    onDelete: "CASCADE",
+    onDelete: "SET NULL", // supprime le candidat mais garde les expériences
   })
   experiences: Experience[];
 
