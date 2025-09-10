@@ -31,20 +31,20 @@ export class Candidate extends Person {
   contract: Contract;
 
   @OneToMany(() => PersonalDocument, (document) => document.candidate, {
-    cascade: true,
-    onDelete: "CASCADE", // supprimer les documents avec le candidat
+
+    onDelete: "SET NULL", // le contrat reste
   })
   personalDocuments: PersonalDocument[];
 
   @OneToMany(() => CandidateSkill, (candidateSkill) => candidateSkill.candidate, {
-    cascade: true,
-    onDelete: "CASCADE",
+
+    onDelete: "SET NULL", // le contrat reste
   })
   candidateSkills: CandidateSkill[];
 
   @OneToMany(() => CandidateJobOffer, (candidateJobOffer) => candidateJobOffer.candidate, {
-    cascade: true,
-    onDelete: "CASCADE",
+
+    onDelete: "SET NULL", // le contrat reste
   })
   candidateJobOffers: CandidateJobOffer[];
 
@@ -54,8 +54,8 @@ export class Candidate extends Person {
   company: Company;
 
   @OneToMany(() => CandidateLanguage, (candidateLang) => candidateLang.candidate, {
-    cascade: true,
-    onDelete: "CASCADE",
+
+    onDelete: "SET NULL", // le contrat reste
   })
   candidateLanguages: CandidateLanguage[];
 
@@ -65,8 +65,8 @@ export class Candidate extends Person {
   experiences: Experience[];
 
   @OneToMany(() => Formation, (formation) => formation.candidate, {
-    cascade: true,
-    onDelete: "CASCADE",
+
+    onDelete: "SET NULL", // le contrat reste
   })
   formations: Formation[];
 
