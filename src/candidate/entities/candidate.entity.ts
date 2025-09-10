@@ -51,7 +51,9 @@ export class Candidate extends Person {
   )
   candidateLanguages: CandidateLanguage[];
 
-  @OneToMany(() => Experience, (exp) => exp.candidate, { cascade: true })
+  @OneToMany(() => Experience, (exp) => exp.candidate, {
+    onDelete: 'SET NULL',
+  }) 
   experiences: Experience[];
 
   @OneToMany(() => Formation, (formation) => formation.candidate, {
