@@ -20,7 +20,9 @@ export class CandidateJobOffer {
   @ManyToOne(() => Status, (status) => status.candidateOffer)
   status: Status;
 
-  @ManyToOne(() => Candidate, (candidate) => candidate.candidateJobOffers)
+  @ManyToOne(() => Candidate, (candidate) => candidate.candidateJobOffers, {
+    onDelete: 'CASCADE',
+  })
   candidate: Candidate;
 
   @ManyToOne(() => JobOffer, (jobOffer) => jobOffer.candidateJobOffers)
