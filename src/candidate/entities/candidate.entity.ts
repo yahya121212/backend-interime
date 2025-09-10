@@ -25,48 +25,37 @@ export class Candidate extends Person {
   @Column({ nullable: true })
   image?: string;
 
-  @ManyToOne(() => Contract, (contract) => contract.candidates, {
-    onDelete: "SET NULL", // le contrat reste
-  })
+  @ManyToOne(() => Contract, (contract) => contract.candidates)
   contract: Contract;
 
   @OneToMany(() => PersonalDocument, (document) => document.candidate, {
-
-    onDelete: "SET NULL", // le contrat reste
+    cascade: true,
   })
   personalDocuments: PersonalDocument[];
 
-  @OneToMany(() => CandidateSkill, (candidateSkill) => candidateSkill.candidate, {
-
-    onDelete: "SET NULL", // le contrat reste
-  })
+  @OneToMany(() => CandidateSkill, (candidateSkill) => candidateSkill.candidate)
   candidateSkills: CandidateSkill[];
 
-  @OneToMany(() => CandidateJobOffer, (candidateJobOffer) => candidateJobOffer.candidate, {
-
-    onDelete: "SET NULL", // le contrat reste
-  })
+  @OneToMany(
+    () => CandidateJobOffer,
+    (candidateJobOffer) => candidateJobOffer.candidate,
+  )
   candidateJobOffers: CandidateJobOffer[];
 
-  @ManyToOne(() => Company, (company) => company.candidates, {
-    onDelete: "SET NULL", // la société reste
-  })
+  @ManyToOne(() => Company, (company) => company.candidates)
   company: Company;
 
-  @OneToMany(() => CandidateLanguage, (candidateLang) => candidateLang.candidate, {
-
-    onDelete: "SET NULL", // le contrat reste
-  })
+  @OneToMany(
+    () => CandidateLanguage,
+    (candidateLang) => candidateLang.candidate,
+  )
   candidateLanguages: CandidateLanguage[];
 
-  @OneToMany(() => Experience, (exp) => exp.candidate, {
-    onDelete: "SET NULL", // supprime le candidat mais garde les expériences
-  })
+  @OneToMany(() => Experience, (exp) => exp.candidate, { cascade: true })
   experiences: Experience[];
 
   @OneToMany(() => Formation, (formation) => formation.candidate, {
-
-    onDelete: "SET NULL", // le contrat reste
+    cascade: true,
   })
   formations: Formation[];
 
@@ -74,4 +63,3 @@ export class Candidate extends Person {
   @JoinTable()
   jobs: Job[];
 }
-

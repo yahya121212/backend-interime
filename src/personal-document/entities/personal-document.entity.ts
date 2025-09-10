@@ -30,9 +30,7 @@ export class PersonalDocument {
   @Column()
   link: string;
 
-  @ManyToOne(() => Candidate, (candidate) => candidate.personalDocuments, {
-    onDelete: 'CASCADE',
-  })
+  @ManyToOne(() => Candidate, (candidate) => candidate.personalDocuments)
   candidate: Candidate;
 
   @OneToOne(() => DocumentType, (documentType) => documentType.personalDocument)

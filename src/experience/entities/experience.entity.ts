@@ -1,5 +1,5 @@
 import { Candidate } from 'src/candidate/entities/candidate.entity';
-import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class Experience {
@@ -21,9 +21,6 @@ export class Experience {
   @Column({ nullable: true, type: 'text' })
   description?: string; // Description of duties or achievements in the position
 
-@ManyToOne(() => Candidate, (candidate) => candidate.experiences, {
-  onDelete: 'SET NULL',
-})
-@JoinColumn({ name: 'candidate_id' }) // ← nom exact de la colonne FK
-candidate: Candidate;
+  @ManyToOne(() => Candidate, (candidate) => candidate.experiences)
+  candidate: Candidate;
 }

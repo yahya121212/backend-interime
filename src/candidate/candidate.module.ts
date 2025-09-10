@@ -22,6 +22,7 @@ import { SkillModule } from 'src/skill/skill.module';
 import { FormationModule } from 'src/formation/formation.module';
 import { ExperienceModule } from 'src/experience/experience.module';
 import { MessageModule } from 'src/message/message.module';
+import { Experience } from 'src/experience/entities/experience.entity';
 
 @Module({
   imports: [
@@ -34,6 +35,7 @@ import { MessageModule } from 'src/message/message.module';
       City,
       CandidateSkill,
       CandidateLanguage,
+      Experience,
     ]),
     LocationModule,
     JobModule,
