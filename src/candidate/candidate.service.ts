@@ -30,7 +30,7 @@ export class CandidateService {
     @InjectRepository(Experience)
     private readonly experienceRepository: Repository<Experience>,
 
-    
+
     private readonly statusService: StatusService,
     private emailService: EmailService,
   ) { }
@@ -192,6 +192,8 @@ export class CandidateService {
 
   async delete(id: string) {
     await this.experienceRepository.delete({ candidate: { id } });
+    await this.candidateskillRepo.delete({ candidate: { id } });
+    await this.candidateLanguageRepo.delete({ candidate: { id } });
 
     await this.candidateRepository.delete(id);
   }
