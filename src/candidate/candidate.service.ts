@@ -16,6 +16,7 @@ import { Skill } from 'src/skill/entities/skill.entity';
 import { FilterCandidatesDto } from './entities/filter.dto';
 import { Status } from 'src/status/entities/status.entity';
 import { EmailService } from 'src/message/email.service';
+import { Experience } from 'src/experience/entities/experience.entity';
 
 @Injectable()
 export class CandidateService {
@@ -26,6 +27,10 @@ export class CandidateService {
     private readonly candidateLanguageRepo: Repository<CandidateLanguage>,
     @InjectRepository(CandidateSkill)
     private readonly candidateskillRepo: Repository<CandidateSkill>,
+    @InjectRepository(Experience)
+    private readonly experienceRepository: Repository<Experience>,
+
+    
     private readonly statusService: StatusService,
     private emailService: EmailService,
   ) { }
@@ -186,6 +191,8 @@ export class CandidateService {
   }
 
   async delete(id: string) {
+    await this.experienceRepository.delete({ candidate: { id } });
+
     await this.candidateRepository.delete(id);
   }
 
