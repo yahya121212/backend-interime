@@ -238,6 +238,7 @@ export class CompanyService {
     });
   }
 
+ 
 async remove(id: string) {
   await this.dataSource.transaction(async (trx) => {
     // Delete job offers for this company
@@ -276,7 +277,6 @@ async remove(id: string) {
     await trx.getRepository(Company).delete(id);
   });
 }
-
 
 
   async save(company: Company) {
