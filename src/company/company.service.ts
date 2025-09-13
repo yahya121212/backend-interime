@@ -238,18 +238,45 @@ export class CompanyService {
     });
   }
 
-  async remove(id: string) {
+async remove(id: string) {
+  await this.dataSource.transaction(async (trx) => {
+    // Delete job offers for this company
+    await trx
+      .createQueryBuilder()
+      .delete()
+      .from(JobOffer)
+      .where("company_id = :id", { id })
+      .execute();
 
-    await this.dataSource.transaction(async (trx) => {
-      await trx
-        .createQueryBuilder()
-        .delete()
-        .from(CompanyEmployee)
-        .where("companyId = :id", { id })
-        .execute();
+    // Delete employees of this company
+    await trx
+      .createQueryBuilder()
+      .delete()
+      .from(CompanyEmployee)
+      .where("company_id = :id", { id })
+      .execute();
 
-    });
-  }
+    // Delete location of this company
+    await trx
+      .createQueryBuilder()
+      .delete()
+      .from(Location)
+      .where("company_id = :id", { id })
+      .execute();
+
+    // Set candidates.company to NULL instead of deleting candidates
+    await trx
+      .createQueryBuilder()
+      .update(Candidate)
+      .set({ company: null })
+      .where("company_id = :id", { id })
+      .execute();
+
+    // Finally, delete the company itself
+    await trx.getRepository(Company).delete(id);
+  });
+}
+
 
   async save(company: Company) {
     await this.companyRepository.save(company);
