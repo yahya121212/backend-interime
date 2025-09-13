@@ -241,36 +241,36 @@ export class CompanyService {
  
 async remove(id: string) {
   await this.dataSource.transaction(async (trx) => {
-    // Delete job offers for this company
+    // Delete job offers
     await trx
       .createQueryBuilder()
       .delete()
       .from(JobOffer)
-      .where("companyId = :id", { id })
+      .where(`"companyId" = :id`, { id })
       .execute();
 
-    // Delete employees of this company
+    // Delete employees
     await trx
       .createQueryBuilder()
       .delete()
       .from(CompanyEmployee)
-      .where("companyId = :id", { id })
+      .where(`"companyId" = :id`, { id })
       .execute();
 
-    // Delete location of this company
+    // Delete location
     await trx
       .createQueryBuilder()
       .delete()
       .from(Location)
-      .where("companyId = :id", { id })
+      .where(`"companyId" = :id`, { id })
       .execute();
 
-    // Set candidates.company to NULL
+    // Set candidates.company = NULL
     await trx
       .createQueryBuilder()
       .update(Candidate)
       .set({ company: null })
-      .where("companyId = :id", { id })
+      .where(`"companyId" = :id`, { id })
       .execute();
 
     // Finally, delete the company itself
