@@ -48,54 +48,64 @@ export class Company {
   workforce: number;
 
   @Column({ nullable: true })
-  coverImage?: string; // Field for the cover image URL or path
+  coverImage?: string;
 
   @Column({ nullable: true })
-  image?: string; // Field for the profile image URL or path
+  image?: string;
 
   @Column({ nullable: true })
   message?: string;
 
-  @JoinColumn()
+  /** 1–1 relation with Location */
   @OneToOne(() => Location, (location) => location.company, {
     onDelete: 'CASCADE',
   })
+  @JoinColumn({ name: 'locationId' })
   location: Location;
 
+  /** 1–N relation with JobOffer */
   @OneToMany(() => JobOffer, (jobOffer) => jobOffer.company, {
     onDelete: 'CASCADE',
   })
   jobOffers: JobOffer[];
 
+  /** 1–N relation with CompanyEmployee */
   @OneToMany(() => CompanyEmployee, (employee) => employee.company, {
     onDelete: 'CASCADE',
   })
   employees: CompanyEmployee[];
 
+  /** 1–N relation with Candidate */
   @OneToMany(() => Candidate, (candidate) => candidate.company, {
     onDelete: 'SET NULL',
   })
   candidates: Candidate[];
 
+  /** 1–1 relation with SocialMedia */
   @OneToOne(() => SocialMedia, (socialMedia) => socialMedia.company, {
     onDelete: 'SET NULL',
   })
-  @JoinColumn()
+  @JoinColumn({ name: 'socialMediaId' })
   socialMedia: SocialMedia;
 
+  /** 1–N relation with Activity */
   @OneToMany(() => Activity, (activity) => activity.companies, {
     onDelete: 'CASCADE',
   })
   activities: Activity[];
 
+  /** N–1 relation with Status */
   @ManyToOne(() => Status, (status) => status.companies, {
     onDelete: 'CASCADE',
   })
+  @JoinColumn({ name: 'statusId' })
   status: Status;
 
+  /** N–1 relation with CompanyType */
   @ManyToOne(() => CompanyType, (companytype) => companytype.companies, {
     onDelete: 'CASCADE',
   })
+  @JoinColumn({ name: 'companyTypeId' })
   companyType: CompanyType;
 
   @CreateDateColumn({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })

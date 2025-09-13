@@ -244,34 +244,9 @@ export class CompanyService {
       await trx
         .createQueryBuilder()
         .delete()
-        .from(JobOffer)
-        .where("companyId = :id", { id })
-        .execute();
-
-      await trx
-        .createQueryBuilder()
-        .delete()
         .from(CompanyEmployee)
         .where("companyId = :id", { id })
         .execute();
-
-      await trx
-        .createQueryBuilder()
-        .delete()
-        .from(Location)
-        .where("companyId = :id", { id })
-        .execute();
-
-      await trx
-        .createQueryBuilder()
-        .update(Candidate)
-        .set({ company: null })
-        .where("companyId = :id", { id })
-        .execute();
-
-      await trx
-        .getRepository(Company)
-        .delete(id);
 
     });
   }

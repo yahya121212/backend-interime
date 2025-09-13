@@ -61,9 +61,11 @@ export class JobOffer {
   @ManyToOne(() => Status, (status) => status.offers)
   status: Status;
 
+  /** 👇 Relation Company avec FK explicite */
   @ManyToOne(() => Company, (company) => company.jobOffers, {
     onDelete: 'CASCADE',
   })
+  @JoinColumn({ name: 'companyId' })   // 🔑 force le nom de la FK
   company: Company;
 
   @OneToMany(
@@ -98,8 +100,8 @@ export class JobOffer {
   )
   jobOfferLanguages: JobOfferLanguage[];
 
-  @JoinColumn()
   @OneToOne(() => Evaluation, (evaluation) => evaluation.jobOffer)
+  @JoinColumn({ name: 'evaluationId' })
   evaluation: Evaluation;
 
   @CreateDateColumn({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
