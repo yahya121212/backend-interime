@@ -73,12 +73,12 @@ export class Company {
   employees: CompanyEmployee[];
 
   @OneToMany(() => Candidate, (candidate) => candidate.company, {
-    onDelete: 'CASCADE',
+    onDelete: 'SET NULL',
   })
   candidates: Candidate[];
 
   @OneToOne(() => SocialMedia, (socialMedia) => socialMedia.company, {
-    onDelete: 'CASCADE',
+    onDelete: 'SET NULL',
   })
   @JoinColumn()
   socialMedia: SocialMedia;

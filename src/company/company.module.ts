@@ -16,10 +16,13 @@ import { NotificationModule } from 'src/notification/notification.module';
 import { ConversationModule } from 'src/conversation/conversation.module';
 import { SocialMediaModule } from 'src/social-media/social-media.module';
 import { JobOfferModule } from 'src/job-offer/job-offer.module';
+import { Candidate } from 'src/candidate/entities/candidate.entity';
+import { JobOffer } from 'src/job-offer/entities/job-offer.entity';
+import { CompanyEmployee } from 'src/company-employee/entities/company-employee.entity';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([Company, CompanyType, Location]),
+    TypeOrmModule.forFeature([Company, JobOffer, CompanyEmployee,CompanyType, Candidate, Location]),
     StatusModule,
     forwardRef(() => PersonModule),
     // RedisModule,

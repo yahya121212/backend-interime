@@ -7,7 +7,7 @@ import {
 } from '@nestjs/common';
 import { Company } from './entities/company.entity';
 import { InjectRepository } from '@nestjs/typeorm';
-import { In, IsNull, Not, Repository } from 'typeorm';
+import { In, IsNull, Not, DataSource, Repository } from 'typeorm';
 import { Location } from 'src/location/entities/location.entity';
 import { EmailService } from 'src/message/email.service';
 import { FRONT_LOGIN } from 'src/common/constants';
@@ -27,6 +27,8 @@ import { SocialMedia } from 'src/social-media/entities/social-media.entity';
 import { SocialMediaService } from 'src/social-media/social-media.service';
 import { Status } from 'src/status/entities/status.entity';
 import { FilterCompanyDto } from './dto/filter-company.dto';
+import { Candidate } from 'src/candidate/entities/candidate.entity';
+import { JobOffer } from 'src/job-offer/entities/job-offer.entity';
 
 @Injectable()
 export class CompanyService {
@@ -47,7 +49,11 @@ export class CompanyService {
     private readonly messageService: MessageService,
     private readonly conversationService: ConversationService,
     private readonly socialMediaService: SocialMediaService,
-  ) {}
+    private readonly dataSource: DataSource, // injection directe
+
+    @InjectRepository(Candidate)
+    private readonly candidatRepository: Repository<Candidate>,
+  ) { }
 
   async create(createCompanyDto, employee): Promise<Company> {
     const { location, siret, ...companyData } = createCompanyDto;
@@ -233,7 +239,18 @@ export class CompanyService {
   }
 
   async remove(id: string) {
-    await this.companyRepository.delete(id);
+
+    await this.dataSource.transaction(async (trx) => {
+      await trx.getRepository(JobOffer).delete({ company: { id } });
+      await trx.getRepository(CompanyEmployee).delete({ company: { id } });
+      // await trx.getRepository(SocialMedia).delete({ company: { id } });
+      await trx.getRepository(Location).delete({ company: { id } });
+      await trx.getRepository(Candidate).update(
+        { company: { id } },
+        { company: null },
+      );
+      await trx.getRepository(Company).delete(id);
+    });
   }
 
   async save(company: Company) {
