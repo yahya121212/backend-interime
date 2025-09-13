@@ -258,20 +258,20 @@ async remove(id: string) {
       .execute();
 
     // Delete location
-    await trx
-      .createQueryBuilder()
-      .delete()
-      .from(Location)
-      .where(`"companyId" = :id`, { id })
-      .execute();
+    // await trx
+    //   .createQueryBuilder()
+    //   .delete()
+    //   .from(Location)
+    //   .where(`"companyId" = :id`, { id })
+    //   .execute();
 
     // Set candidates.company = NULL
-    await trx
-      .createQueryBuilder()
-      .update(Candidate)
-      .set({ company: null })
-      .where(`"companyId" = :id`, { id })
-      .execute();
+    // await trx
+    //   .createQueryBuilder()
+    //   .update(Candidate)
+    //   .set({ company: null })
+    //   .where(`"companyId" = :id`, { id })
+    //   .execute();
 
     // Finally, delete the company itself
     await trx.getRepository(Company).delete(id);
