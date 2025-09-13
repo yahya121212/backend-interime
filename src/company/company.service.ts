@@ -245,7 +245,7 @@ async remove(id: string) {
       .createQueryBuilder()
       .delete()
       .from(JobOffer)
-      .where("company_id = :id", { id })
+      .where("companyId = :id", { id })
       .execute();
 
     // Delete employees of this company
@@ -253,7 +253,7 @@ async remove(id: string) {
       .createQueryBuilder()
       .delete()
       .from(CompanyEmployee)
-      .where("company_id = :id", { id })
+      .where("companyId = :id", { id })
       .execute();
 
     // Delete location of this company
@@ -261,21 +261,22 @@ async remove(id: string) {
       .createQueryBuilder()
       .delete()
       .from(Location)
-      .where("company_id = :id", { id })
+      .where("companyId = :id", { id })
       .execute();
 
-    // Set candidates.company to NULL instead of deleting candidates
+    // Set candidates.company to NULL
     await trx
       .createQueryBuilder()
       .update(Candidate)
       .set({ company: null })
-      .where("company_id = :id", { id })
+      .where("companyId = :id", { id })
       .execute();
 
     // Finally, delete the company itself
     await trx.getRepository(Company).delete(id);
   });
 }
+
 
 
   async save(company: Company) {
