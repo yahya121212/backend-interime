@@ -41,15 +41,14 @@ services:
       - db
       - redis
     volumes:
-      - uploads_data:/app/uploads
-
-  api: # OCR
+      - uploads_data:/app/uploads  # ← persist all dynamic uploads
+  api:
     build:
       context: ../OCR
       dockerfile: Dockerfile
     container_name: ocr-fastapi
     ports:
-      - '9000:8000'   # externe 9000 → interne 8000 (FastAPI écoute sur 8000)
+      - '8000:8000'
     env_file:
       - ../OCR/.env
     volumes:
@@ -57,23 +56,7 @@ services:
     restart: always
     depends_on:
       - backend
-
-  ia: # IA
-    build:
-      context: ../IA
-      dockerfile: Dockerfile
-    container_name: ia-service
-    ports:
-      - '9090:8000'   # externe 9090 → interne 8000 (si ton IA écoute sur 8000)
-    env_file:
-      - ../IA/.env
-    volumes:
-      - ../IA/uploads:/app/uploads
-    restart: always
-    depends_on:
-      - backend
-
 volumes:
   postgres_data:
   redis_data:
-  uploads_data:
+  uploads_data:   # ← root volume for all uploaded files
