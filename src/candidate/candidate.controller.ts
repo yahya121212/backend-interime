@@ -364,6 +364,7 @@ export class CandidateController {
   ) {
     const personalDetails = JSON.parse(profileData.personalDetails || '{}');
     const skills = JSON.parse(profileData.skills || '[]');
+    const location = JSON.parse(profileData.location || '[]');
     const experiences = JSON.parse(profileData.experiences || '[]');
     const education = JSON.parse(profileData.education || '[]');
     const languages = JSON.parse(profileData.languages || '[]');
@@ -390,6 +391,9 @@ export class CandidateController {
       ? new Date(personalDetails.birthday)
       : null;
 
+      if(location) {
+      existingCandidate.location = await this.locationService.findOrCreate(location);
+      }
     // Update experiences
     if (experiences) {
       existingCandidate.experiences = await Promise.all(
