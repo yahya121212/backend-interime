@@ -364,7 +364,7 @@ export class CandidateController {
   ) {
     const personalDetails = JSON.parse(profileData.personalDetails || '{}');
     const skills = JSON.parse(profileData.skills || '[]');
-    const location = JSON.parse(profileData.location || '[]');
+    const location = JSON.parse(profileData.location || '{}');
     const experiences = JSON.parse(profileData.experiences || '[]');
     const education = JSON.parse(profileData.education || '[]');
     const languages = JSON.parse(profileData.languages || '[]');
