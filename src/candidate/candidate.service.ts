@@ -36,7 +36,7 @@ export class CandidateService {
     private readonly personalDocumentRepository: Repository<PersonalDocument>,
     @InjectRepository(Formation)
     private readonly FormationtRepository: Repository<PersonalDocument>,
-        @InjectRepository(CandidateJobOffer)
+    @InjectRepository(CandidateJobOffer)
     private readonly candidatJobOffertRepository: Repository<CandidateJobOffer>,
 
     private readonly statusService: StatusService,
@@ -105,7 +105,11 @@ export class CandidateService {
 
   async findAll(page: number, limit: number) {
     const [data, total] = await this.candidateRepository.findAndCount({
-      relations: ['status', 'personalDocuments'],
+      relations: ['status', 'personalDocuments', 'location',
+        'location.postalCode',
+        'location.city',
+        'location.city.department',
+        'location.city.department.region',],
       skip: (page - 1) * limit,
       take: limit,
       order: {
