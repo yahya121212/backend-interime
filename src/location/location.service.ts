@@ -39,41 +39,28 @@ export class LocationService {
 
     return location;
   }
-  async findOrCreate2(locationData: CreateLocationDto): Promise<Location> {
-    const { postalCode, city, address, addressLine2 } = locationData;
+async findOrCreate2(locationData: CreateLocationDto): Promise<Location> {
+  const { postalCode, city, address, addressLine2 } = locationData;
+ 
 
-    // Récupérer les entités liées
-    const code: string = postalCode?.code ?? '';
-    const name: string = city?.name ?? '';
-  const zipCodeEntity = await this.zipCodeService.findOneByCode(code);
-  const cityEntity = await this.cityService.findOneByName(name);
-    // Trouver une location existante avec même adresse, code postal et ville
-    let location = await this.locationRepository.findOne({
-      where: {
-        address,
-        postalCode: { id: zipCodeEntity.id },
-        city: { id: cityEntity.id },
-      },
-      relations: ['postalCode', 'city'],
-    });
+  // Créer un nouveau code postal via le service
+  const zipCodeEntity = await this.zipCodeService.create(postalCode);
 
-    // Si existe → mettre à jour (si champs changent)
-    if (location) {
-      location.addressLine2 = addressLine2 ?? location.addressLine2;
+  // Créer une nouvelle ville via le service
+  const cityEntity = await this.cityService.create(city);
 
-      return await this.locationRepository.save(location);
-    }
+  // Créer une nouvelle location liée à ces entités
+  const newLocation = this.locationRepository.create({
+    address,
+    addressLine2,
+    postalCode: zipCodeEntity,
+    city: cityEntity,
+  });
 
-    // Sinon → créer nouvelle location
-    location = this.locationRepository.create({
-      address,
-      addressLine2,
-      postalCode: zipCodeEntity,
-      city: cityEntity,
-    });
+  return await this.locationRepository.save(newLocation);
+}
 
-    return await this.locationRepository.save(location);
-  }
+
 
   async findAll() {
     return this.locationRepository.find();
