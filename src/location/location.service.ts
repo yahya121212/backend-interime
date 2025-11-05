@@ -15,11 +15,19 @@ export class LocationService {
 
   constructor(
     @InjectRepository(Location)
+    @InjectRepository(Location)
     private readonly locationRepository: Repository<Location>,
+
     private readonly zipCodeService: PostalCodeService,
     private readonly cityService: CityService,
+
+    @InjectRepository(Region)
     private readonly regionRepository: Repository<Region>,
+
+    @InjectRepository(Department)
     private readonly departmentRepository: Repository<Department>,
+
+    @InjectRepository(City)
     private readonly cityRepository: Repository<City>,
   ) { }
   async findOrCreate(locationData: CreateLocationDto): Promise<Location> {
