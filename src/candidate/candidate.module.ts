@@ -39,9 +39,9 @@ import { CandidateJobOffer } from 'src/job-offer/entities/CandidateJobOffer.enti
       CandidateLanguage,
       Experience,
       Formation,
-      CandidateJobOffer
+      CandidateJobOffer,
     ]),
-    LocationModule,
+    LocationModule,      // ✅ contient déjà LocationService
     JobModule,
     StatusModule,
     PostalCodeModule,
@@ -53,7 +53,10 @@ import { CandidateJobOffer } from 'src/job-offer/entities/CandidateJobOffer.enti
     ExperienceModule,
   ],
   controllers: [CandidateController],
-  providers: [CandidateService, LocationService, PersonalDocumentService],
+  providers: [
+    CandidateService,
+    PersonalDocumentService, // ✅ ok, pas de doublon
+  ],
   exports: [CandidateService],
 })
 export class CandidateModule {}

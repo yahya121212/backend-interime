@@ -12,16 +12,19 @@ import { City } from 'src/city/entities/city.entity';
 @Module({
   imports: [
     TypeOrmModule.forFeature([
-      Location,
-      Region,
-      Department,
-      City,
+      Location,     // ✅ repository pour Location
+      Region,       // ✅ repository pour Region
+      Department,   // ✅ repository pour Department
+      City,         // ✅ repository pour City
     ]),
-    PostalCodeModule,
-    CityModule,
+    PostalCodeModule, // ✅ pour PostalCodeService
+    CityModule,       // ✅ pour CityService
   ],
   controllers: [LocationController],
   providers: [LocationService],
-  exports: [LocationService],
+  exports: [
+    LocationService,           // ✅ permet l’utilisation dans CandidateModule
+    TypeOrmModule,             // ✅ rend les repositories accessibles aux modules importateurs
+  ],
 })
 export class LocationModule {}
