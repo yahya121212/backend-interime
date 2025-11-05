@@ -40,9 +40,12 @@ export class LocationService {
     return location;
   }
   async findOrCreate2(locationData: any): Promise<Location> {
-
+    const data = {
+      name: locationData.region,
+      department: locationData.department,
+    };
     // Créer une nouvelle ville via le service
-    const cityEntity = await this.cityService.create(locationData);
+    const cityEntity = await this.cityService.create(data);
 
     // Créer une nouvelle location liée à ces entités
     const newLocation = this.locationRepository.create({
