@@ -6,6 +6,9 @@ import { Location } from './entities/location.entity';
 import { Repository } from 'typeorm';
 import { PostalCodeService } from 'src/postal-code/postal-code.service';
 import { CityService } from 'src/city/city.service';
+import { Region } from 'src/region/entities/region.entity';
+import { Department } from 'src/department/entities/department.entity';
+import { City } from 'src/city/entities/city.entity';
 
 @Injectable()
 export class LocationService {
@@ -15,6 +18,9 @@ export class LocationService {
     private readonly locationRepository: Repository<Location>,
     private readonly zipCodeService: PostalCodeService,
     private readonly cityService: CityService,
+    private readonly regionRepository: Repository<Region>,
+    private readonly departmentRepository: Repository<Department>,
+    private readonly cityRepository: Repository<City>,
   ) { }
   async findOrCreate(locationData: CreateLocationDto): Promise<Location> {
     const { postalCode, city, address, addressLine2 } = locationData;
@@ -39,19 +45,37 @@ export class LocationService {
 
     return location;
   }
-  async findOrCreate2(locationData: any): Promise<Location> {
-    const data = {
-      name: locationData.region,
-      department: locationData.department,
-    };
-    // Créer une nouvelle ville via le service
-    const cityEntity = await this.cityService.create(data);
+  async createFullCityHierarchy(regionName: string, departmentName: string, cityName: string): Promise<City> {
+    // Créer la région
+    const region = this.regionRepository.create({ name: regionName });
+    await this.regionRepository.save(region);
 
-    // Créer une nouvelle location liée à ces entités
+    // Créer le département lié à la région
+    const department = this.departmentRepository.create({
+      name: departmentName,
+      region: region,
+    });
+    await this.departmentRepository.save(department);
+
+    // Créer la ville liée au département
+    const city = this.cityRepository.create({
+      name: cityName,
+      department: department,
+    });
+    await this.cityRepository.save(city);
+
+    return city;
+  }
+  async findOrCreate2(locationData: any): Promise<Location> {
+    const cityEntity = await this.createFullCityHierarchy(
+      locationData.region,
+      locationData.department,
+      locationData.city
+    );
+
     const newLocation = this.locationRepository.create({
       city: cityEntity,
     });
-
     return await this.locationRepository.save(newLocation);
   }
 
