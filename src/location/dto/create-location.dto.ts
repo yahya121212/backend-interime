@@ -2,10 +2,10 @@ import { IsOptional, IsString } from 'class-validator';
 
 export class CreateLocationDto {
   @IsString()
-  postalCode: string;
+  postalCode: any;
 
   @IsString()
-  city: string;
+  city: any;
 
   @IsString()
   address: string;

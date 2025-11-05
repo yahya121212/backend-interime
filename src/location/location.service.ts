@@ -9,6 +9,7 @@ import { CityService } from 'src/city/city.service';
 
 @Injectable()
 export class LocationService {
+
   constructor(
     @InjectRepository(Location)
     private readonly locationRepository: Repository<Location>,
@@ -42,9 +43,10 @@ export class LocationService {
     const { postalCode, city, address, addressLine2 } = locationData;
 
     // Récupérer les entités liées
-    const zipCodeEntity = await this.zipCodeService.findOneByCode(postalCode);
-    const cityEntity = await this.cityService.findOneByName(city);
-
+    const code: string = postalCode?.code ?? '';
+    const name: string = city?.name ?? '';
+  const zipCodeEntity = await this.zipCodeService.findOneByCode(code);
+  const cityEntity = await this.cityService.findOneByName(name);
     // Trouver une location existante avec même adresse, code postal et ville
     let location = await this.locationRepository.findOne({
       where: {
