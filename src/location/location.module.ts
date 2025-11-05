@@ -13,15 +13,15 @@ import { City } from 'src/city/entities/city.entity';
   imports: [
     TypeOrmModule.forFeature([
       Location,
-      Region,         
-      Department,     
-      City,           
+      Region,        // ✅ Injection du Repository<Region>
+      Department,    // ✅ Injection du Repository<Department>
+      City,          // ✅ Injection du Repository<City>
     ]),
-    PostalCodeModule,
-    CityModule,
+    PostalCodeModule,  // ✅ injection du PostalCodeService
+    CityModule,        // ✅ injection du CityService
   ],
   controllers: [LocationController],
   providers: [LocationService],
   exports: [LocationService],
 })
-export class LocationModule { }
+export class LocationModule {}
