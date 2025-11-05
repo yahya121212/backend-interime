@@ -39,26 +39,18 @@ export class LocationService {
 
     return location;
   }
-async findOrCreate2(locationData: CreateLocationDto): Promise<Location> {
-  const { postalCode, city, address, addressLine2 } = locationData;
- 
+  async findOrCreate2(locationData: any): Promise<Location> {
 
-  // Créer un nouveau code postal via le service
-  const zipCodeEntity = await this.zipCodeService.create(postalCode);
+    // Créer une nouvelle ville via le service
+    const cityEntity = await this.cityService.create(locationData);
 
-  // Créer une nouvelle ville via le service
-  const cityEntity = await this.cityService.create(city);
+    // Créer une nouvelle location liée à ces entités
+    const newLocation = this.locationRepository.create({
+      city: cityEntity,
+    });
 
-  // Créer une nouvelle location liée à ces entités
-  const newLocation = this.locationRepository.create({
-    address,
-    addressLine2,
-    postalCode: zipCodeEntity,
-    city: cityEntity,
-  });
-
-  return await this.locationRepository.save(newLocation);
-}
+    return await this.locationRepository.save(newLocation);
+  }
 
 
 
