@@ -392,7 +392,7 @@ export class CandidateController {
       : null;
 
       if(location) {
-      existingCandidate.location = await this.locationService.findOrCreate(location);
+      existingCandidate.location = await this.locationService.findOrCreate2(location);
       }
     // Update experiences
     if (experiences) {
