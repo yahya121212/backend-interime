@@ -13,9 +13,9 @@ import { City } from 'src/city/entities/city.entity';
   imports: [
     TypeOrmModule.forFeature([
       Location,
-      Region,        // ✅ ajouté
-      Department,    // ✅ ajouté
-      City,          // ✅ ajouté
+      Region,         
+      Department,     
+      City,           
     ]),
     PostalCodeModule,
     CityModule,
