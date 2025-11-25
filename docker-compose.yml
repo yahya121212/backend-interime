@@ -1,6 +1,7 @@
 version: '3.8'
 
 services:
+
   db:
     image: postgres:latest
     restart: always
@@ -8,16 +9,17 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: reallysecret
       POSTGRES_DB: postgres
-    ports:
-      - '5432:5432'
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   redis:
     image: redis:latest
     restart: always
-    ports:
-      - '6379:6379'
     volumes:
       - redis_data:/data
 
@@ -25,7 +27,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: interim_backend:latest
     restart: always
     ports:
       - '3000:3000'
@@ -38,25 +39,30 @@ services:
       REDIS_HOST: redis
       REDIS_PORT: 6379
     depends_on:
-      - db
-      - redis
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
     volumes:
-      - uploads_data:/app/uploads  # ← persist all dynamic uploads
+      - uploads_data:/app/uploads
+
   api:
     build:
       context: ../OCR
       dockerfile: Dockerfile
     container_name: ocr-fastapi
+    restart: always
     ports:
       - '8000:8000'
     env_file:
       - ../OCR/.env
     volumes:
       - ../OCR/uploads:/app/uploads
-    restart: always
     depends_on:
-      - backend
+      redis:
+        condition: service_started
+
 volumes:
   postgres_data:
   redis_data:
-  uploads_data:   # ← root volume for all uploaded files
+  uploads_data:
