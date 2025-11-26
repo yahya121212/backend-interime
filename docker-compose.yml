@@ -11,11 +11,6 @@ services:
       POSTGRES_DB: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
   redis:
     image: redis:latest
@@ -39,10 +34,8 @@ services:
       REDIS_HOST: redis
       REDIS_PORT: 6379
     depends_on:
-      db:
-        condition: service_healthy
-      redis:
-        condition: service_started
+      - db
+      - redis
     volumes:
       - uploads_data:/app/uploads
 
@@ -59,8 +52,7 @@ services:
     volumes:
       - ../OCR/uploads:/app/uploads
     depends_on:
-      redis:
-        condition: service_started
+      - redis
 
 volumes:
   postgres_data:
